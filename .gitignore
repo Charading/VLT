@@ -1,0 +1,18 @@
+# KiCad backups
+*-backups/
+*.kicad_sch-bak
+*.kicad_sch.bak
+*.lck
+
+# KiCad cache/logs
+fp-info-cache
+kbplacer.log
+
+# Database
+database/
+
+# Scripts
+scripts/
+
+# Old exports
+*.step
