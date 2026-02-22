@@ -11649,6 +11649,27 @@
 			)
 		)
 	)
+	(global_label "RGB_DATA_IN"
+		(shape input)
+		(at 354.33 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46d94392-14be-426a-ae5f-62b399260f9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 354.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RUN"
 		(shape input)
 		(at 265.43 152.4 180)
@@ -11923,27 +11944,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RGB_DATA_IN"
-		(shape input)
-		(at 354.33 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c2f8dad5-d9c1-4740-9f60-7cb1b67dfafc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 354.33 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
