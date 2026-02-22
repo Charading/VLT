@@ -7682,6 +7682,12 @@
 		(uuid "07aebcbc-84f9-40d5-b53e-1036ed74c186")
 	)
 	(junction
+		(at 77.47 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15d4740f-514c-4d27-a10f-3521fe5f9be9")
+	)
+	(junction
 		(at 57.15 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7850,12 +7856,6 @@
 		(uuid "84005387-b044-4d32-bfe3-d532287a7b1f")
 	)
 	(junction
-		(at 80.01 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87c67257-2c6d-4b25-a5e7-a759e3170197")
-	)
-	(junction
 		(at 90.17 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7886,16 +7886,16 @@
 		(uuid "95aa23f5-e612-40b1-a89e-4250cfca8a75")
 	)
 	(junction
+		(at 101.6 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "967b7938-8013-40b6-9341-338793f1cd14")
+	)
+	(junction
 		(at 384.81 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9874e09e-78df-4326-bf28-e1f3ca4373d5")
-	)
-	(junction
-		(at 100.33 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9be6b87d-0786-4aff-b931-425e49148966")
 	)
 	(junction
 		(at 274.32 43.18)
@@ -8139,7 +8139,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 36.83) (xy 80.01 36.83)
+			(xy 73.66 36.83) (xy 77.47 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8179,6 +8179,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 36.83) (xy 81.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0583ab08-3c24-4e92-883d-d013c3861ee1")
+	)
+	(wire
+		(pts
 			(xy 102.87 252.73) (xy 102.87 254)
 		)
 		(stroke
@@ -8199,7 +8209,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 44.45) (xy 100.33 48.26)
+			(xy 101.6 44.45) (xy 101.6 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8439,7 +8449,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 44.45) (xy 80.01 48.26)
+			(xy 77.47 44.45) (xy 77.47 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8609,7 +8619,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 48.26) (xy 90.17 48.26)
+			(xy 77.47 48.26) (xy 90.17 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8649,7 +8659,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 36.83) (xy 100.33 36.83)
+			(xy 97.79 36.83) (xy 101.6 36.83)
 		)
 		(stroke
 			(width 0)
@@ -9299,7 +9309,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 48.26) (xy 90.17 48.26)
+			(xy 101.6 48.26) (xy 90.17 48.26)
 		)
 		(stroke
 			(width 0)
@@ -9356,16 +9366,6 @@
 			(type default)
 		)
 		(uuid "73300da8-c5cb-4c44-9317-0faef4b516ef")
-	)
-	(wire
-		(pts
-			(xy 80.01 36.83) (xy 81.28 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74fc7d5b-71ab-4677-b54b-c2b84a4d8741")
 	)
 	(wire
 		(pts
@@ -10159,7 +10159,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 39.37) (xy 80.01 36.83)
+			(xy 77.47 39.37) (xy 77.47 36.83)
 		)
 		(stroke
 			(width 0)
@@ -10459,16 +10459,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 36.83) (xy 106.68 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfd67fec-9099-4d8f-96ce-33c8771d15be")
-	)
-	(wire
-		(pts
 			(xy 313.69 48.26) (xy 316.23 48.26)
 		)
 		(stroke
@@ -10569,7 +10559,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 39.37) (xy 100.33 36.83)
+			(xy 101.6 39.37) (xy 101.6 36.83)
 		)
 		(stroke
 			(width 0)
@@ -10776,6 +10766,16 @@
 			(type default)
 		)
 		(uuid "f04f2fb1-8638-4c0b-9a1d-df440f9f35b2")
+	)
+	(wire
+		(pts
+			(xy 101.6 36.83) (xy 106.68 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a2e66b-6aec-4af1-8999-7320998395dc")
 	)
 	(wire
 		(pts
@@ -11308,7 +11308,7 @@
 		(uuid "a5586f98-45ec-4b10-97f3-607e2b934795")
 	)
 	(label "ENC_SW"
-		(at 359.41 109.22 0)
+		(at 359.41 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11348,7 +11348,7 @@
 		(uuid "ab85b52d-e6ad-4485-b0f6-b851ce0966aa")
 	)
 	(label "ENC_B"
-		(at 359.41 106.68 0)
+		(at 359.41 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11418,7 +11418,7 @@
 		(uuid "cdfe4342-2e29-43a4-a4ba-5bcfde791aee")
 	)
 	(label "ENC_A"
-		(at 359.41 111.76 0)
+		(at 359.41 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19037,7 +19037,7 @@
 	)
 	(symbol
 		(lib_id "Mars_Library:Capacitor_0603_10uF")
-		(at 80.01 41.91 0)
+		(at 77.47 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19046,7 +19046,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc2ce896-fbd9-49cb-b6d2-1ef23d602db4")
 		(property "Reference" "C13"
-			(at 82.55 40.6462 0)
+			(at 80.01 40.6462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19055,7 +19055,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 82.55 43.1863 0)
+			(at 80.01 43.1863 0)
 			(effects
 				(font
 					(size 1 1)
@@ -19064,7 +19064,7 @@
 			)
 		)
 		(property "Footprint" "Mars_Library:C_0603"
-			(at 80.01 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19073,7 +19073,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19082,7 +19082,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 80.01 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19091,7 +19091,7 @@
 			)
 		)
 		(property "LCSC" "C19702"
-			(at 80.01 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19469,7 +19469,7 @@
 	)
 	(symbol
 		(lib_id "Mars_Library:Capacitor_0603_10uF")
-		(at 100.33 41.91 0)
+		(at 101.6 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19478,7 +19478,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf66cb0b-4b4e-4261-ae28-25185c22be9f")
 		(property "Reference" "C14"
-			(at 102.87 40.6462 0)
+			(at 104.14 40.6462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19487,7 +19487,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 102.87 43.1863 0)
+			(at 104.14 43.1863 0)
 			(effects
 				(font
 					(size 1 1)
@@ -19496,7 +19496,7 @@
 			)
 		)
 		(property "Footprint" "Mars_Library:C_0603"
-			(at 100.33 41.91 0)
+			(at 101.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19505,7 +19505,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 41.91 0)
+			(at 101.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19514,7 +19514,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 100.33 41.91 0)
+			(at 101.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19523,7 +19523,7 @@
 			)
 		)
 		(property "LCSC" "C19702"
-			(at 100.33 41.91 0)
+			(at 101.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
