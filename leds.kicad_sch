@@ -526,6 +526,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_marbastlib-various:WS2812_2020"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812_2020"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable 2020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812_2020_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812_2020_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812_2020_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -858,6 +1113,12 @@
 		(uuid "c29f216f-ebc1-4615-9486-3de6ab11dd8d")
 	)
 	(junction
+		(at 127 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00acaed3-963b-4813-9225-38d2903543c3")
+	)
+	(junction
 		(at 105.41 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1014,6 +1275,12 @@
 		(uuid "336955fd-532c-4424-868f-9e218320fd50")
 	)
 	(junction
+		(at 111.76 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3530d497-2975-465a-95b7-1879a23d74cb")
+	)
+	(junction
 		(at 387.35 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1048,6 +1315,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c2d9956-5f11-4c55-9bdb-a00d993ae745")
+	)
+	(junction
+		(at 142.24 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cf9c800-33cf-4ce0-b208-ac05ca7993b6")
 	)
 	(junction
 		(at 168.91 260.35)
@@ -1182,6 +1455,12 @@
 		(uuid "5c2c7401-c6db-4302-9a98-dfbfd9bd40ab")
 	)
 	(junction
+		(at 127 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c78fdf6-8d0e-40f3-abde-59e44a5c5690")
+	)
+	(junction
 		(at 349.25 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1288,6 +1567,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bbf96dd-fad7-49ee-b7c9-e6b9d6f6e38c")
+	)
+	(junction
+		(at 142.24 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d5943f9-6a3e-4445-898d-4c18933eafd5")
 	)
 	(junction
 		(at 378.46 46.99)
@@ -1740,6 +2025,12 @@
 		(uuid "ef7b3356-6e3b-4c5e-b579-cb1af6378c90")
 	)
 	(junction
+		(at 111.76 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0fd414f-532c-4266-b905-6987ea48c8f4")
+	)
+	(junction
 		(at 359.41 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1836,6 +2127,16 @@
 			(type default)
 		)
 		(uuid "01268a40-d8ca-463f-af60-c9c967199746")
+	)
+	(wire
+		(pts
+			(xy 142.24 173.99) (xy 157.48 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c9575a-7a8c-4426-93ec-0cf34c7f2a39")
 	)
 	(wire
 		(pts
@@ -2079,16 +2380,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 166.37) (xy 101.6 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1501e9eb-dc14-4fc9-b3a6-d23939216617")
-	)
-	(wire
-		(pts
 			(xy 99.06 142.24) (xy 101.6 142.24)
 		)
 		(stroke
@@ -2169,6 +2460,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 173.99) (xy 127 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf01cfd-a213-4d0a-8123-a4be896be180")
+	)
+	(wire
+		(pts
 			(xy 45.72 166.37) (xy 48.26 166.37)
 		)
 		(stroke
@@ -2209,7 +2510,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 166.37) (xy 154.94 166.37)
+			(xy 220.98 166.37) (xy 223.52 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2259,7 +2560,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 166.37) (xy 83.82 166.37)
+			(xy 81.28 166.37) (xy 88.9 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2309,6 +2610,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 166.37) (xy 170.18 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2650a982-b803-4926-949e-f2e6688335c7")
+	)
+	(wire
+		(pts
 			(xy 387.35 158.75) (xy 396.24 158.75)
 		)
 		(stroke
@@ -2329,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 166.37) (xy 137.16 166.37)
+			(xy 203.2 166.37) (xy 205.74 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3199,16 +3510,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 166.37) (xy 223.52 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e6ecd88-b2d0-49dd-a61a-cf99a4ea60e3")
-	)
-	(wire
-		(pts
 			(xy 339.09 52.07) (xy 349.25 52.07)
 		)
 		(stroke
@@ -3629,7 +3930,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 166.37) (xy 190.5 166.37)
+			(xy 256.54 166.37) (xy 259.08 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3796,6 +4097,16 @@
 			(type default)
 		)
 		(uuid "a67616b5-de8f-4680-9267-eb8194a8dfe1")
+	)
+	(wire
+		(pts
+			(xy 142.24 158.75) (xy 157.48 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6acf4b6-3328-40c5-a5ae-f5d6de0b4999")
 	)
 	(wire
 		(pts
@@ -4089,7 +4400,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 166.37) (xy 172.72 166.37)
+			(xy 238.76 166.37) (xy 241.3 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4136,16 +4447,6 @@
 			(type default)
 		)
 		(uuid "c7386fde-bf1a-4886-a92a-374a53aa5ca0")
-	)
-	(wire
-		(pts
-			(xy 238.76 166.37) (xy 241.3 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c786dfbd-a34b-48fd-ae1b-fe62d081f4a9")
 	)
 	(wire
 		(pts
@@ -4246,6 +4547,16 @@
 			(type default)
 		)
 		(uuid "cc5c7457-b572-43b6-b9fe-7051cd219769")
+	)
+	(wire
+		(pts
+			(xy 127 158.75) (xy 142.24 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd69158d-4542-4612-8987-1459b41b3f1c")
 	)
 	(wire
 		(pts
@@ -4409,6 +4720,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 173.99) (xy 142.24 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbef4840-0ae0-4aee-b85f-083dea3763ad")
+	)
+	(wire
+		(pts
+			(xy 111.76 158.75) (xy 127 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc58e518-02fc-4b45-8955-4b031a1bdda6")
+	)
+	(wire
+		(pts
 			(xy 259.08 118.11) (xy 261.62 118.11)
 		)
 		(stroke
@@ -4509,13 +4840,13 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 166.37) (xy 259.08 166.37)
+			(xy 96.52 158.75) (xy 111.76 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e627dd0e-2c04-4d0c-9629-6e9006342bc2")
+		(uuid "e51ac411-bb4a-415a-89bd-b34a6447a8a5")
 	)
 	(wire
 		(pts
@@ -4629,7 +4960,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 166.37) (xy 119.38 166.37)
+			(xy 185.42 166.37) (xy 187.96 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4676,6 +5007,16 @@
 			(type default)
 		)
 		(uuid "f07bee6f-38fc-4ac0-a7a7-8c835eead6a3")
+	)
+	(wire
+		(pts
+			(xy 96.52 173.99) (xy 111.76 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12edefe-2d2c-47ad-85cf-bc6a25006a11")
 	)
 	(wire
 		(pts
@@ -5442,7 +5783,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 180.34 158.75 0)
+		(at 248.92 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5450,7 +5791,7 @@
 		(dnp no)
 		(uuid "0109c677-505e-4a53-9845-b1b0cc9320f5")
 		(property "Reference" "#PWR0218"
-			(at 180.34 162.56 0)
+			(at 248.92 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5800,7 @@
 			)
 		)
 		(property "Value" "+5V_LED"
-			(at 178.308 158.75 0)
+			(at 246.888 158.75 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5467,7 +5808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 158.75 0)
+			(at 248.92 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 158.75 0)
+			(at 248.92 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +5826,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 180.34 158.75 0)
+			(at 248.92 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +5848,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 144.78 166.37 0)
+		(at 213.36 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5515,7 +5856,7 @@
 		(dnp no)
 		(uuid "017bc5e2-86b1-43e1-b052-8fa796971757")
 		(property "Reference" "LED78"
-			(at 147.828 160.02 0)
+			(at 216.408 160.02 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5523,7 +5864,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 154.94 162.4898 0)
+			(at 223.52 162.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5873,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 144.78 166.37 0)
+			(at 213.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 166.37 0)
+			(at 213.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5891,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 144.78 166.37 0)
+			(at 213.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5900,7 @@
 			)
 		)
 		(property "LCSC" "C5149201 "
-			(at 144.78 166.37 0)
+			(at 213.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +7411,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 91.44 158.75 0)
+		(at 127 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7078,7 +7419,7 @@
 		(dnp no)
 		(uuid "0e7bf031-0c48-4ec3-89bd-32f53bff8b3a")
 		(property "Reference" "#PWR0213"
-			(at 91.44 162.56 0)
+			(at 127 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +7428,7 @@
 			)
 		)
 		(property "Value" "+5V_LED"
-			(at 89.408 158.75 0)
+			(at 124.968 158.75 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7095,7 +7436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 158.75 0)
+			(at 127 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +7445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 158.75 0)
+			(at 127 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,7 +7454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 91.44 158.75 0)
+			(at 127 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,6 +7713,82 @@
 			(project "VLT"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
 					(reference "LED64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 157.48 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "109604fd-b948-49b6-b700-4c1ffcac5d55")
+		(property "Reference" "LED75R2"
+			(at 159.512 160.528 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 170.18 162.4898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 158.75 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 160.02 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 157.48 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2d917ae1-d4a2-45ed-b89d-bb0ffa2afccd")
+		)
+		(pin "2"
+			(uuid "ff8f2173-73f2-4f37-a0e3-141e87ad8c45")
+		)
+		(pin "1"
+			(uuid "7e5a04ca-fd23-4f64-a97c-c185f4322d59")
+		)
+		(pin "4"
+			(uuid "892b2460-517b-4f72-82b9-1f2439bd14ca")
+		)
+		(instances
+			(project ""
+				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
+					(reference "LED75R2")
 					(unit 1)
 				)
 			)
@@ -8583,71 +9000,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 231.14 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a75159e-6efd-4250-9419-c85426d31919")
-		(property "Reference" "#PWR0452"
-			(at 231.14 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 229.108 174.244 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57300b39-66ae-4e4d-adc1-32f5e9487be5")
-		)
-		(instances
-			(project "VLT"
-				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
-					(reference "#PWR0452")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mars_Library:Capacitor_C_0402_100nF_0.1uF")
 		(at 378.46 31.75 0)
 		(unit 1)
@@ -9565,7 +9917,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 109.22 158.75 0)
+		(at 177.8 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9573,7 +9925,7 @@
 		(dnp no)
 		(uuid "22bd5fbe-b785-4bfe-b13e-4667345aa891")
 		(property "Reference" "#PWR0214"
-			(at 109.22 162.56 0)
+			(at 177.8 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9582,7 +9934,7 @@
 			)
 		)
 		(property "Value" "+5V_LED"
-			(at 107.188 158.75 0)
+			(at 175.768 158.75 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9590,7 +9942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 158.75 0)
+			(at 177.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 158.75 0)
+			(at 177.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +9960,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.22 158.75 0)
+			(at 177.8 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10024,7 +10376,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 173.99 0)
+		(at 231.14 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10032,7 +10384,7 @@
 		(dnp no)
 		(uuid "282b7cd4-2e01-4042-ae99-a466057ee70f")
 		(property "Reference" "#PWR0229"
-			(at 162.56 180.34 0)
+			(at 231.14 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10041,7 +10393,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.528 174.244 0)
+			(at 229.108 174.244 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10049,7 +10401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 173.99 0)
+			(at 231.14 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,7 +10410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 173.99 0)
+			(at 231.14 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10067,7 +10419,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 173.99 0)
+			(at 231.14 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,71 +10499,6 @@
 			(project "SHEGO75"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
 					(reference "#PWR0258")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 231.14 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29d609bf-42c4-4472-85d4-1f0f4968bd2c")
-		(property "Reference" "#PWR049"
-			(at 231.14 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_LED"
-			(at 229.108 158.75 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 231.14 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1eefd81e-4f55-46f5-a7db-526779e33946")
-		)
-		(instances
-			(project "VLT"
-				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11722,7 +12009,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 127 166.37 0)
+		(at 195.58 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11730,7 +12017,7 @@
 		(dnp no)
 		(uuid "3a39ad07-1c73-4d6c-9f53-392f0905180f")
 		(property "Reference" "LED77"
-			(at 130.048 160.02 0)
+			(at 198.628 160.02 0)
 			(effects
 				(font
 					(size 1 1)
@@ -11738,7 +12025,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 137.16 162.4898 0)
+			(at 205.74 162.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11747,7 +12034,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 127 166.37 0)
+			(at 195.58 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,7 +12043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 166.37 0)
+			(at 195.58 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,7 +12052,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 127 166.37 0)
+			(at 195.58 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11774,7 +12061,7 @@
 			)
 		)
 		(property "LCSC" "C5149201 "
-			(at 127 166.37 0)
+			(at 195.58 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12488,71 +12775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 213.36 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43d1b72f-18a1-4e80-b41e-f5c389b74e07")
-		(property "Reference" "#PWR048"
-			(at 213.36 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_LED"
-			(at 211.328 158.75 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 213.36 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2b54698-9fad-4456-a9be-21dd98fd5b3d")
-		)
-		(instances
-			(project "VLT"
-				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
 		(at 195.58 231.14 0)
 		(unit 1)
@@ -12934,89 +13156,6 @@
 			(project "SHEGO75"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
 					(reference "CG1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 248.92 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45c70fb5-1bc5-4cf3-9552-07599014989b")
-		(property "Reference" "LED75.3"
-			(at 251.968 160.02 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 259.08 162.4898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 248.92 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 248.92 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201 "
-			(at 248.92 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3a529303-dff9-4342-a05b-75682a81666b")
-		)
-		(pin "3"
-			(uuid "8b5734f5-f06e-4cbc-a427-c2bb17a28f15")
-		)
-		(pin "1"
-			(uuid "fc8f395e-329f-4457-8f67-62ec88968a6e")
-		)
-		(pin "4"
-			(uuid "510e16a3-03ec-4cb1-adb5-324e158393d4")
-		)
-		(instances
-			(project "VLT"
-				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
-					(reference "LED75.3")
 					(unit 1)
 				)
 			)
@@ -13894,6 +14033,82 @@
 			(project "VLT"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
 					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 96.52 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cd810f1-5f0a-4a8d-ae3a-80d3c1a77e12")
+		(property "Reference" "LED75L2"
+			(at 98.552 160.528 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 109.22 162.4898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 97.79 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 99.06 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 96.52 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2d917ae1-d4a2-45ed-b89d-bb0ffa2afccd")
+		)
+		(pin "2"
+			(uuid "ff8f2173-73f2-4f37-a0e3-141e87ad8c45")
+		)
+		(pin "1"
+			(uuid "7e5a04ca-fd23-4f64-a97c-c185f4322d59")
+		)
+		(pin "4"
+			(uuid "892b2460-517b-4f72-82b9-1f2439bd14ca")
+		)
+		(instances
+			(project ""
+				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
+					(reference "LED75L2")
 					(unit 1)
 				)
 			)
@@ -15850,7 +16065,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 173.99 0)
+		(at 248.92 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15858,7 +16073,7 @@
 		(dnp no)
 		(uuid "5c4da1b2-12a0-45bc-8455-ea61b99f22c4")
 		(property "Reference" "#PWR0230"
-			(at 180.34 180.34 0)
+			(at 248.92 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15867,7 +16082,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 178.308 174.244 0)
+			(at 246.888 174.244 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15875,7 +16090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 173.99 0)
+			(at 248.92 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15884,7 +16099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 173.99 0)
+			(at 248.92 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15893,7 +16108,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 173.99 0)
+			(at 248.92 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16748,7 +16963,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 173.99 0)
+		(at 195.58 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16756,7 +16971,7 @@
 		(dnp no)
 		(uuid "614920b2-1a54-4c84-9a98-53ca33030055")
 		(property "Reference" "#PWR0227"
-			(at 127 180.34 0)
+			(at 195.58 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16765,7 +16980,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.968 174.244 0)
+			(at 193.548 174.244 0)
 			(effects
 				(font
 					(size 1 1)
@@ -16773,7 +16988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 173.99 0)
+			(at 195.58 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16782,7 +16997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 173.99 0)
+			(at 195.58 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16791,7 +17006,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 173.99 0)
+			(at 195.58 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18612,71 +18827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 266.7 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ecc7d0b-44c3-49a7-969f-8125e8599540")
-		(property "Reference" "#PWR0450"
-			(at 266.7 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_LED"
-			(at 264.668 158.75 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 266.7 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51ba6d0a-8216-4be2-8fac-ac88efd5d35a")
-		)
-		(instances
-			(project "VLT"
-				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
-					(reference "#PWR0450")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mars_Library:Capacitor_C_0402_100nF_0.1uF")
 		(at 359.41 228.6 0)
 		(unit 1)
@@ -19032,7 +19182,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 198.12 166.37 0)
+		(at 266.7 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19040,7 +19190,7 @@
 		(dnp no)
 		(uuid "74c61e96-6a41-4e4d-b1f8-139f06c84673")
 		(property "Reference" "LED81"
-			(at 201.168 160.02 0)
+			(at 269.748 160.02 0)
 			(effects
 				(font
 					(size 1 1)
@@ -19048,7 +19198,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 208.28 162.4898 0)
+			(at 276.86 162.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19057,7 +19207,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 198.12 166.37 0)
+			(at 266.7 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19066,7 +19216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 166.37 0)
+			(at 266.7 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19075,7 +19225,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 198.12 166.37 0)
+			(at 266.7 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19084,7 +19234,7 @@
 			)
 		)
 		(property "LCSC" "C5149201 "
-			(at 198.12 166.37 0)
+			(at 266.7 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19187,71 +19337,6 @@
 			(project "SHEGO75"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
 					(reference "CL71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 248.92 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75a54c03-91dd-4a29-93d1-708bf74e2930")
-		(property "Reference" "#PWR0449"
-			(at 248.92 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_LED"
-			(at 246.888 158.75 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 248.92 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fb80a02-f88d-45e9-915e-df08624e76a7")
-		)
-		(instances
-			(project "VLT"
-				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
-					(reference "#PWR0449")
 					(unit 1)
 				)
 			)
@@ -19787,7 +19872,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 180.34 166.37 0)
+		(at 248.92 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19795,7 +19880,7 @@
 		(dnp no)
 		(uuid "7d346a8d-0f43-4fa1-ad6b-9301dbea755e")
 		(property "Reference" "LED80"
-			(at 183.388 160.02 0)
+			(at 251.968 160.02 0)
 			(effects
 				(font
 					(size 1 1)
@@ -19803,7 +19888,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 190.5 162.4898 0)
+			(at 259.08 162.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19812,7 +19897,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 180.34 166.37 0)
+			(at 248.92 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19821,7 +19906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 166.37 0)
+			(at 248.92 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19830,7 +19915,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 180.34 166.37 0)
+			(at 248.92 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19839,7 +19924,7 @@
 			)
 		)
 		(property "LCSC" "C5149201 "
-			(at 180.34 166.37 0)
+			(at 248.92 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20202,89 +20287,6 @@
 			(project "SHEGO75"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
 					(reference "CL73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 213.36 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7df7149f-5643-4e92-a578-741bd58f66c6")
-		(property "Reference" "LED75.1"
-			(at 216.408 160.02 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 223.52 162.4898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 213.36 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 213.36 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201 "
-			(at 213.36 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa41fe35-e462-44c2-b92c-96944276d6dc")
-		)
-		(pin "3"
-			(uuid "ef16542d-1c62-440e-bfa2-cb17e4a8dea9")
-		)
-		(pin "1"
-			(uuid "3976bebd-27b6-4261-a8b7-b71d6a3e3599")
-		)
-		(pin "4"
-			(uuid "d4be8797-f744-4865-8376-6467e8c09126")
-		)
-		(instances
-			(project "VLT"
-				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
-					(reference "LED75.1")
 					(unit 1)
 				)
 			)
@@ -21121,7 +21123,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 109.22 166.37 0)
+		(at 177.8 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21129,7 +21131,7 @@
 		(dnp no)
 		(uuid "825fab7b-23be-43a4-82a8-9cf5c581f0dd")
 		(property "Reference" "LED76"
-			(at 112.268 160.02 0)
+			(at 180.848 160.02 0)
 			(effects
 				(font
 					(size 1 1)
@@ -21137,7 +21139,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 119.38 162.4898 0)
+			(at 187.96 162.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21146,7 +21148,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 109.22 166.37 0)
+			(at 177.8 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21155,7 +21157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 166.37 0)
+			(at 177.8 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21164,7 +21166,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 109.22 166.37 0)
+			(at 177.8 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21173,7 +21175,7 @@
 			)
 		)
 		(property "LCSC" "C5149201 "
-			(at 109.22 166.37 0)
+			(at 177.8 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23730,7 +23732,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 198.12 158.75 0)
+		(at 266.7 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23738,7 +23740,7 @@
 		(dnp no)
 		(uuid "9dbb4080-878c-4935-8a9a-cebb067ac100")
 		(property "Reference" "#PWR0219"
-			(at 198.12 162.56 0)
+			(at 266.7 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23747,7 +23749,7 @@
 			)
 		)
 		(property "Value" "+5V_LED"
-			(at 196.088 158.75 0)
+			(at 264.668 158.75 0)
 			(effects
 				(font
 					(size 1 1)
@@ -23755,7 +23757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 158.75 0)
+			(at 266.7 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23764,7 +23766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 158.75 0)
+			(at 266.7 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23773,7 +23775,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 198.12 158.75 0)
+			(at 266.7 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24163,7 +24165,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 173.99 0)
+		(at 127 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24171,7 +24173,7 @@
 		(dnp no)
 		(uuid "9fbdc712-0b08-417a-adb7-2218b5484439")
 		(property "Reference" "#PWR0225"
-			(at 91.44 180.34 0)
+			(at 127 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24180,7 +24182,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 89.408 174.244 0)
+			(at 124.968 174.244 0)
 			(effects
 				(font
 					(size 1 1)
@@ -24188,7 +24190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 173.99 0)
+			(at 127 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24197,7 +24199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 173.99 0)
+			(at 127 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24206,7 +24208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 173.99 0)
+			(at 127 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24813,7 +24815,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 162.56 166.37 0)
+		(at 231.14 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24821,7 +24823,7 @@
 		(dnp no)
 		(uuid "a47f4af1-f8c0-41cc-a51c-4ead9231f692")
 		(property "Reference" "LED79"
-			(at 165.608 160.02 0)
+			(at 234.188 160.02 0)
 			(effects
 				(font
 					(size 1 1)
@@ -24829,7 +24831,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 172.72 162.4898 0)
+			(at 241.3 162.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24838,7 +24840,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 162.56 166.37 0)
+			(at 231.14 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24847,7 +24849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 166.37 0)
+			(at 231.14 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24856,7 +24858,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 162.56 166.37 0)
+			(at 231.14 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24865,7 +24867,7 @@
 			)
 		)
 		(property "LCSC" "C5149201 "
-			(at 162.56 166.37 0)
+			(at 231.14 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25126,71 +25128,6 @@
 			(project "SHEGO75"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
 					(reference "CL10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 213.36 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a58bf30b-66aa-41cb-883c-2d65df9f2b93")
-		(property "Reference" "#PWR0451"
-			(at 213.36 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 211.328 174.244 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e99c5eec-f3ec-47ca-bbc6-5f4bd43fe260")
-		)
-		(instances
-			(project "VLT"
-				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
-					(reference "#PWR0451")
 					(unit 1)
 				)
 			)
@@ -25564,7 +25501,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 91.44 166.37 0)
+		(at 127 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25572,7 +25509,7 @@
 		(dnp no)
 		(uuid "a82a93b1-9efc-4f53-a257-56e6859b87d2")
 		(property "Reference" "LED75"
-			(at 94.488 160.02 0)
+			(at 130.048 160.02 0)
 			(effects
 				(font
 					(size 1 1)
@@ -25580,7 +25517,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 101.6 162.4898 0)
+			(at 137.16 162.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25589,7 +25526,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 91.44 166.37 0)
+			(at 127 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25598,7 +25535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 166.37 0)
+			(at 127 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25607,7 +25544,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 91.44 166.37 0)
+			(at 127 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25616,7 +25553,7 @@
 			)
 		)
 		(property "LCSC" "C5149201 "
-			(at 91.44 166.37 0)
+			(at 127 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26232,6 +26169,82 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 111.76 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae8f5bad-e1cd-4a2d-b5ff-851906d8a267")
+		(property "Reference" "LED75L1"
+			(at 113.792 160.528 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 124.46 162.4898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 113.03 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 114.3 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 111.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2d917ae1-d4a2-45ed-b89d-bb0ffa2afccd")
+		)
+		(pin "2"
+			(uuid "ff8f2173-73f2-4f37-a0e3-141e87ad8c45")
+		)
+		(pin "1"
+			(uuid "7e5a04ca-fd23-4f64-a97c-c185f4322d59")
+		)
+		(pin "4"
+			(uuid "892b2460-517b-4f72-82b9-1f2439bd14ca")
+		)
+		(instances
+			(project ""
+				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
+					(reference "LED75L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mars_Library:Capacitor_C_0402_100nF_0.1uF")
 		(at 359.41 173.99 0)
 		(unit 1)
@@ -26312,136 +26325,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aed7206d-0807-416c-95da-a5f5a91ea81d")
-		(property "Reference" "#PWR0453"
-			(at 248.92 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 246.888 174.244 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8494df7-00e0-45a2-b854-45f6b476d721")
-		)
-		(instances
-			(project "VLT"
-				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
-					(reference "#PWR0453")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 266.7 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b07a9f72-781a-4929-ae7e-1aeded99cfd4")
-		(property "Reference" "#PWR0454"
-			(at 266.7 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 264.668 174.244 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c64e9416-e2e4-480a-b3ba-344fdccc1896")
-		)
-		(instances
-			(project "VLT"
-				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
-					(reference "#PWR0454")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 109.22 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26500,89 +26383,6 @@
 			(project "VLT"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
 					(reference "#PWR0171")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 266.7 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b301e6e2-d3cc-4dc5-a572-02545546ca3f")
-		(property "Reference" "LED75.4"
-			(at 269.748 160.02 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 276.86 162.4898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 266.7 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 266.7 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201 "
-			(at 266.7 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b22e4cfd-a8c4-4149-b719-b90236ae93fa")
-		)
-		(pin "3"
-			(uuid "fc44a6cd-9260-4f5c-8a62-77382eafed26")
-		)
-		(pin "1"
-			(uuid "d16a39dd-464a-4daa-97b4-5e3982ea03a5")
-		)
-		(pin "4"
-			(uuid "045fd58c-1f04-44da-94d4-702c018f3f5e")
-		)
-		(instances
-			(project "VLT"
-				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
-					(reference "LED75.4")
 					(unit 1)
 				)
 			)
@@ -26666,6 +26466,82 @@
 			(project "VLT"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
 					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:WS2812_2020")
+		(at 142.24 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3c81218-2dbe-44f9-bfe7-c632d2d4f0ce")
+		(property "Reference" "LED75R1"
+			(at 144.272 160.528 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "WS2812_2020"
+			(at 154.94 162.4898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_WS2812_2020"
+			(at 143.51 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.world-semi.com/DownLoadFile/139"
+			(at 144.78 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2d917ae1-d4a2-45ed-b89d-bb0ffa2afccd")
+		)
+		(pin "2"
+			(uuid "ff8f2173-73f2-4f37-a0e3-141e87ad8c45")
+		)
+		(pin "1"
+			(uuid "7e5a04ca-fd23-4f64-a97c-c185f4322d59")
+		)
+		(pin "4"
+			(uuid "892b2460-517b-4f72-82b9-1f2439bd14ca")
+		)
+		(instances
+			(project ""
+				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
+					(reference "LED75R1")
 					(unit 1)
 				)
 			)
@@ -26821,7 +26697,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 173.99 0)
+		(at 213.36 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26829,7 +26705,7 @@
 		(dnp no)
 		(uuid "b5efe1a9-9eee-4249-90a6-27bd4e8efe6f")
 		(property "Reference" "#PWR0228"
-			(at 144.78 180.34 0)
+			(at 213.36 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26838,7 +26714,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.748 174.244 0)
+			(at 211.328 174.244 0)
 			(effects
 				(font
 					(size 1 1)
@@ -26846,7 +26722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 173.99 0)
+			(at 213.36 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26855,7 +26731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 173.99 0)
+			(at 213.36 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26864,7 +26740,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 173.99 0)
+			(at 213.36 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27261,7 +27137,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 144.78 158.75 0)
+		(at 213.36 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27269,7 +27145,7 @@
 		(dnp no)
 		(uuid "bbbaaf0f-1590-41bb-851e-929f69c068bd")
 		(property "Reference" "#PWR0216"
-			(at 144.78 162.56 0)
+			(at 213.36 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27278,7 +27154,7 @@
 			)
 		)
 		(property "Value" "+5V_LED"
-			(at 142.748 158.75 0)
+			(at 211.328 158.75 0)
 			(effects
 				(font
 					(size 1 1)
@@ -27286,7 +27162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 158.75 0)
+			(at 213.36 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27295,7 +27171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 158.75 0)
+			(at 213.36 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27304,7 +27180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 144.78 158.75 0)
+			(at 213.36 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29399,7 +29275,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 173.99 0)
+		(at 266.7 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29407,7 +29283,7 @@
 		(dnp no)
 		(uuid "d2e84724-321c-4b08-b60e-df7760d64a49")
 		(property "Reference" "#PWR0231"
-			(at 198.12 180.34 0)
+			(at 266.7 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29416,7 +29292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.088 174.244 0)
+			(at 264.668 174.244 0)
 			(effects
 				(font
 					(size 1 1)
@@ -29424,7 +29300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 173.99 0)
+			(at 266.7 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29433,7 +29309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 173.99 0)
+			(at 266.7 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29442,7 +29318,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 173.99 0)
+			(at 266.7 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30366,7 +30242,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 173.99 0)
+		(at 177.8 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30374,7 +30250,7 @@
 		(dnp no)
 		(uuid "d8632ae9-ad29-4370-b4c3-7499fb87b9f0")
 		(property "Reference" "#PWR0226"
-			(at 109.22 180.34 0)
+			(at 177.8 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30383,7 +30259,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.188 174.244 0)
+			(at 175.768 174.244 0)
 			(effects
 				(font
 					(size 1 1)
@@ -30391,7 +30267,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 173.99 0)
+			(at 177.8 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30400,7 +30276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 173.99 0)
+			(at 177.8 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30409,7 +30285,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 173.99 0)
+			(at 177.8 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30431,7 +30307,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 162.56 158.75 0)
+		(at 231.14 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30439,7 +30315,7 @@
 		(dnp no)
 		(uuid "d8a48cd0-ceb2-406d-9d2d-a53d20cab0ba")
 		(property "Reference" "#PWR0217"
-			(at 162.56 162.56 0)
+			(at 231.14 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30448,7 +30324,7 @@
 			)
 		)
 		(property "Value" "+5V_LED"
-			(at 160.528 158.75 0)
+			(at 229.108 158.75 0)
 			(effects
 				(font
 					(size 1 1)
@@ -30456,7 +30332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 158.75 0)
+			(at 231.14 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30465,7 +30341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 158.75 0)
+			(at 231.14 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30474,7 +30350,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 158.75 0)
+			(at 231.14 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33182,7 +33058,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 127 158.75 0)
+		(at 195.58 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33190,7 +33066,7 @@
 		(dnp no)
 		(uuid "ee7dfe41-8522-4629-83fa-921d5567d602")
 		(property "Reference" "#PWR0215"
-			(at 127 162.56 0)
+			(at 195.58 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33199,7 +33075,7 @@
 			)
 		)
 		(property "Value" "+5V_LED"
-			(at 124.968 158.75 0)
+			(at 193.548 158.75 0)
 			(effects
 				(font
 					(size 1 1)
@@ -33207,7 +33083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 158.75 0)
+			(at 195.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33216,7 +33092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 158.75 0)
+			(at 195.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33225,7 +33101,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 158.75 0)
+			(at 195.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35127,89 +35003,6 @@
 			(project "SHEGO75"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
 					(reference "CL72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 231.14 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffd2acee-c532-4f33-90a4-c3a58f5ba9d8")
-		(property "Reference" "LED75.2"
-			(at 234.188 160.02 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 241.3 162.4898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 231.14 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 231.14 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5149201 "
-			(at 231.14 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20a584f2-5011-42f5-813b-8fb37277e19b")
-		)
-		(pin "3"
-			(uuid "0501fbe2-4658-4d12-b7a9-e19d31672ce9")
-		)
-		(pin "1"
-			(uuid "1d3eaab1-1990-4d91-a5b9-b6d0556df0fa")
-		)
-		(pin "4"
-			(uuid "29ba2a41-831e-4ec3-aae8-bace484a7e4c")
-		)
-		(instances
-			(project "VLT"
-				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/93d578b5-0d45-41cf-a435-f7285bff5a4d"
-					(reference "LED75.2")
 					(unit 1)
 				)
 			)
