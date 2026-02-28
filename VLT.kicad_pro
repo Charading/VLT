@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.048,
-          "height": 4.0,
-          "width": 4.0
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|203392352|129848364|c11510c7-51c9-4843-9005-ce3649f728fc|c7eb435d-1088-4273-a81b-2cfc4b9b7dfa",
+          "Fiducial"
+        ],
+        [
+          "courtyards_overlap|43328751|98317500|37a24079-1394-4432-893f-54d5a8fafd7a|910db5d6-f994-408a-b45f-2f8fa55cbaaa",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -89,7 +98,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "ignore",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "warning",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",

@@ -1305,17 +1305,6 @@
 		)
 		(uuid f79b8a21-6a86-4350-9bab-ab1bda237503)
 	)
-	(text "v2: replaced HC4067 with ADG732 muxes\nv2.1: updated +3.3V to +3V3"
-		(exclude_from_sim no)
-		(at 301.752 256.794 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5662dd1a-a2e2-4ca0-b31c-a41ff4754704")
-	)
 	(text "KNOB"
 		(exclude_from_sim no)
 		(at 374.65 26.924 0)
@@ -10523,7 +10512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.25u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2.25u"
 			(at 347.98 234.95 0)
 			(effects
 				(font
@@ -14269,7 +14258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2u"
 			(at 307.34 234.95 0)
 			(effects
 				(font
@@ -20086,7 +20075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.25u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_2.25u"
 			(at 327.66 234.95 0)
 			(effects
 				(font
@@ -24081,7 +24070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_6.25u"
 			(at 368.3 234.95 0)
 			(effects
 				(font
