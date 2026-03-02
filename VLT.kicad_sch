@@ -12216,7 +12216,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 144.78) (xy 120.65 144.78)
+			(xy 113.03 144.78) (xy 121.92 144.78)
 		)
 		(stroke
 			(width 0)
@@ -12296,7 +12296,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 129.54) (xy 120.65 129.54)
+			(xy 116.84 129.54) (xy 121.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -12326,7 +12326,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 127) (xy 120.65 127)
+			(xy 113.03 127) (xy 121.92 127)
 		)
 		(stroke
 			(width 0)
@@ -12436,7 +12436,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 124.46) (xy 120.65 124.46)
+			(xy 116.84 124.46) (xy 121.92 124.46)
 		)
 		(stroke
 			(width 0)
@@ -13086,7 +13086,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 132.08) (xy 120.65 132.08)
+			(xy 116.84 132.08) (xy 121.92 132.08)
 		)
 		(stroke
 			(width 0)
@@ -13936,7 +13936,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 147.32) (xy 120.65 147.32)
+			(xy 113.03 147.32) (xy 121.92 147.32)
 		)
 		(stroke
 			(width 0)
@@ -14476,7 +14476,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 149.86) (xy 120.65 149.86)
+			(xy 116.84 149.86) (xy 121.92 149.86)
 		)
 		(stroke
 			(width 0)
@@ -14586,7 +14586,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 137.16) (xy 120.65 137.16)
+			(xy 113.03 137.16) (xy 121.92 137.16)
 		)
 		(stroke
 			(width 0)
@@ -15576,7 +15576,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 121.92) (xy 120.65 121.92)
+			(xy 116.84 121.92) (xy 121.92 121.92)
 		)
 		(stroke
 			(width 0)
@@ -15696,7 +15696,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 139.7) (xy 120.65 139.7)
+			(xy 113.03 139.7) (xy 121.92 139.7)
 		)
 		(stroke
 			(width 0)
@@ -15846,7 +15846,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 134.62) (xy 120.65 134.62)
+			(xy 116.84 134.62) (xy 121.92 134.62)
 		)
 		(stroke
 			(width 0)
@@ -15926,7 +15926,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 142.24) (xy 120.65 142.24)
+			(xy 113.03 142.24) (xy 121.92 142.24)
 		)
 		(stroke
 			(width 0)
@@ -18136,7 +18136,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 154.94 0)
+		(at 127 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18145,7 +18145,7 @@
 		(fields_autoplaced yes)
 		(uuid "014d6ec2-c7a5-496a-92b3-e3afb249301f")
 		(property "Reference" "#PWR0470"
-			(at 125.73 161.29 0)
+			(at 127 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18154,7 +18154,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 160.02 0)
+			(at 127 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18162,7 +18162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 154.94 0)
+			(at 127 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18171,7 +18171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 154.94 0)
+			(at 127 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18180,7 +18180,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 154.94 0)
+			(at 127 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29499,7 +29499,7 @@
 	)
 	(symbol
 		(lib_id "Mars_Library:Conn_FPC_12P_0.5mm_MP")
-		(at 125.73 134.62 0)
+		(at 127 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29507,7 +29507,7 @@
 		(dnp no)
 		(uuid "d18210f3-3f34-452a-8dd0-22e7b91f1b4f")
 		(property "Reference" "J6"
-			(at 128.27 134.6199 0)
+			(at 129.54 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29516,7 +29516,7 @@
 			)
 		)
 		(property "Value" "TFT"
-			(at 128.27 137.1599 0)
+			(at 129.54 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29525,7 +29525,7 @@
 			)
 		)
 		(property "Footprint" "Mars_Library:XUNPU_FPC-05F-12PH20_1x12-1MP_P0.5mm"
-			(at 125.73 134.62 0)
+			(at 127 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29534,7 +29534,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 134.62 0)
+			(at 127 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29543,7 +29543,7 @@
 			)
 		)
 		(property "Description" "12-pin FPC"
-			(at 125.73 134.62 0)
+			(at 127 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
