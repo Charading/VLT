@@ -5248,16 +5248,6 @@
 		)
 		(uuid "98c863b5-30e4-43bc-a96a-702b3ff3711f")
 	)
-	(label "LED_EXP"
-		(at 317.5 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b26f6d93-6a1f-4f50-8a75-d8aa76c572dd")
-	)
 	(global_label "STATUS"
 		(shape input)
 		(at 219.71 231.14 0)
@@ -5271,6 +5261,28 @@
 		(uuid "21394dc5-89de-4272-b1e3-8413b5465879")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 229.4685 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_EXP"
+		(shape input)
+		(at 317.5 231.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ea9b99c-2392-4fac-8192-0557a646a6ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 328.5284 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)

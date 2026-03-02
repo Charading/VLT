@@ -1332,12 +1332,6 @@
 		(uuid "2c7ff0af-d844-405c-93c1-33c78846af4f")
 	)
 	(junction
-		(at 152.4 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "375f5e2b-ba60-4d61-8318-f84c581891ac")
-	)
-	(junction
 		(at 129.54 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1396,6 +1390,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cad943d-5b61-44cc-9743-0bf6c26c20d7")
+	)
+	(junction
+		(at 152.4 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d2bb4f3-98e4-4a70-9121-2dfa09199558")
 	)
 	(junction
 		(at 196.85 227.33)
@@ -1557,16 +1557,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 222.25) (xy 152.4 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e6607b3-78ae-4b80-93a6-871287a9805c")
-	)
-	(wire
-		(pts
 			(xy 196.85 276.86) (xy 196.85 257.81)
 		)
 		(stroke
@@ -1604,16 +1594,6 @@
 			(type default)
 		)
 		(uuid "2698a725-31b9-4c15-b8b6-403e507558ce")
-	)
-	(wire
-		(pts
-			(xy 142.24 222.25) (xy 152.4 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "270d94f9-fa03-4fdd-b0d0-e66dc0ab95bc")
 	)
 	(wire
 		(pts
@@ -2167,6 +2147,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 229.87) (xy 152.4 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2dc5b0c-55c0-4131-a582-5a5cd9329cf1")
+	)
+	(wire
+		(pts
+			(xy 152.4 229.87) (xy 152.4 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f9b28a-8b29-4eaf-b906-fc45fcb8d447")
+	)
+	(wire
+		(pts
 			(xy 162.56 267.97) (xy 175.26 267.97)
 		)
 		(stroke
@@ -2207,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 224.79) (xy 152.4 247.65)
+			(xy 152.4 224.79) (xy 152.4 229.87)
 		)
 		(stroke
 			(width 0)
@@ -2475,6 +2475,16 @@
 		)
 		(uuid "1ddced96-a962-460f-accc-6a5f1e38edc8")
 	)
+	(label "HE65_N"
+		(at 142.24 227.33 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e2bad35-8e34-4808-b299-86174cbb663d")
+	)
 	(label "HE36_Y"
 		(at 181.61 82.55 0)
 		(effects
@@ -2554,16 +2564,6 @@
 			(justify left bottom)
 		)
 		(uuid "27ec0241-cde0-499c-a0c7-643a50586881")
-	)
-	(label "HE51_H"
-		(at 142.24 227.33 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "29313d56-118c-4f76-a992-06b020e90183")
 	)
 	(label "HE24_9"
 		(at 314.96 214.63 0)
@@ -3535,6 +3535,16 @@
 		)
 		(uuid "851322d0-ab4a-40e6-b374-19f4e64f877f")
 	)
+	(label "HE51_H"
+		(at 142.24 222.25 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8537bdc2-905c-4695-9cee-dea5988916bd")
+	)
 	(label "HE32_W"
 		(at 49.53 236.22 0)
 		(effects
@@ -4424,16 +4434,6 @@
 			(justify left bottom)
 		)
 		(uuid "e05f6034-f6c1-4955-b96a-2d27c526668d")
-	)
-	(label "HE65_N"
-		(at 142.24 229.87 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3771862-3010-447e-869f-b11b9f2624a1")
 	)
 	(label "HE30_Tab"
 		(at 43.18 82.55 0)
@@ -14784,7 +14784,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7fc49d8e-4ebc-4916-aeac-db63d26afb4a")
 		(property "Reference" "HE45.1"
 			(at 32.004 103.632 0)
