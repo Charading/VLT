@@ -1,6 +1,18 @@
 # VLT PCB Changelog
 
-## [Rev 2] - 2026-02-27 (In Progress)
+## [Rev 3] - 2026-03-25 (In Progress)
+
+### Changed
+- **MCU migration: RP2350B → STM32H723VGT6** — RP2350B version moved to obsolete/outdated
+- **External 16MB flash** added for storage (GIF, profiles, etc.)
+
+### Notes
+- Rev 1–2 (RP2350B-based) are now considered obsolete
+- Moving forward with STM32H723VGT6 as the production MCU
+
+---
+
+## [Rev 2] - 2026-02-27 (Obsolete — RP2350B)
 
 ### Added
 - **NTC thermistor** — temperature sensing circuit with voltage divider
