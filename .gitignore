@@ -16,3 +16,6 @@ scripts/
 
 # Old exports
 *.step
+
+# Dev branch / experimental layouts (kept local)
+VLT+Dev/
