@@ -19,3 +19,9 @@ scripts/
 
 # Dev branch / experimental layouts (kept local)
 VLT+Dev/
+
+# Local-only folders
+.history/
+.history_trim/
+deprecated/
+nextpcb/
