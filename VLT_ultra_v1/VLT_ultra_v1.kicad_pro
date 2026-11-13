@@ -50,8 +50,8 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 1,
-          "border_hatch_pitch": 0.1,
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.2,
+          "min_thickness": 0.25,
           "pad_connection": 2,
-          "remove_islands": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -83,23 +83,7 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|123637500|131272500|3912354d-5d23-44b0-9fe2-b7be5aacd75b|4217e59c-452e-4cd9-b0f3-452445035cfd",
-          ""
-        ],
-        [
-          "clearance|179400000|69100000|1bf681a2-c4f1-406a-b7f9-54380c581b1e|75d443ad-f961-49c5-a9de-39b1d18ef6c4",
-          ""
-        ],
-        [
-          "clearance|181945000|69100000|4f5389c2-c7f1-443d-a1d1-63cd01fdd3ee|c881273b-2c1b-4495-9a8c-b3d4b374a97c",
-          ""
-        ],
-        [
-          "clearance|188802539|109326777|1c8eaa07-20ba-4d0d-91b9-369574a997e1|6e083c85-f897-4989-a3fb-00ddc48ac874",
-          ""
-        ],
-        [
-          "courtyards_overlap|173755000|135095000|99f4ea7e-fa1e-4fcb-b39b-4e3cf2d2bf21|ec19e3e1-e40d-4469-b078-566a13fadfe5",
+          "courtyards_overlap|173355000|135095000|99f4ea7e-fa1e-4fcb-b39b-4e3cf2d2bf21|ec19e3e1-e40d-4469-b078-566a13fadfe5",
           ""
         ],
         [
@@ -353,7 +337,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|4546600|431800|58a337cb-f9c4-4c1a-8f31-567918c10e12|a44e1c34-6d47-44d2-b3f7-bd40d867fea0|/c718de86-356e-4c1f-b593-cb7e2fd66d67|/c718de86-356e-4c1f-b593-cb7e2fd66d67|/c718de86-356e-4c1f-b593-cb7e2fd66d67",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -699,7 +688,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 200,
     "annotation": {
       "method": 0,
       "sort_order": 1
@@ -717,7 +706,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -966,12 +955,12 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "TH",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,

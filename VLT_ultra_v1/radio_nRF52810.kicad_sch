@@ -1880,6 +1880,27 @@
 				)
 			)
 			(embedded_fonts no)
+			(property "LCSC" "C66501"
+				(at 0 0 0)
+				(effects
+					(font (size 1.27 1.27))
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL10B104KO8NNNC"
+				(at 0 0 0)
+				(effects
+					(font (size 1.27 1.27))
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font (size 1.27 1.27))
+					(hide yes)
+				)
+			)
 		)
 	)
 	(junction

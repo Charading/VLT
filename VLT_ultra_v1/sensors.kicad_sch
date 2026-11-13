@@ -1279,6 +1279,39 @@
 					)
 				)
 			)
+			(property "LCSC" "C7420984"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "HAL49ESO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Hallwee"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
@@ -5166,7 +5199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0128f80a-7979-4ad0-99a6-a35701e0760d")
-		(property "Reference" "#PWR0380"
+		(property "Reference" "#PWR0482"
 			(at 248.92 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5227,7 +5260,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0380")
+					(reference "#PWR0482")
 					(unit 1)
 				)
 			)
@@ -5244,7 +5277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02d4a87f-1f80-468a-9946-8c00b89e5a7a")
-		(property "Reference" "#PWR0386"
+		(property "Reference" "#PWR0488"
 			(at 88.9 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5304,7 +5337,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0386")
+					(reference "#PWR0488")
 					(unit 1)
 				)
 			)
@@ -5321,7 +5354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "038b441b-dd7d-48a9-806b-2208e6bc8dfe")
-		(property "Reference" "#PWR0440"
+		(property "Reference" "#PWR0542"
 			(at 162.56 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -5381,7 +5414,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0440")
+					(reference "#PWR0542")
 					(unit 1)
 				)
 			)
@@ -5398,7 +5431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05b62ef4-698e-4971-afc9-cf8118c031ea")
-		(property "Reference" "#PWR0390"
+		(property "Reference" "#PWR0492"
 			(at 170.18 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5458,7 +5491,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0390")
+					(reference "#PWR0492")
 					(unit 1)
 				)
 			)
@@ -5475,7 +5508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "072c86a7-aff1-4b42-b308-a52a563a60b9")
-		(property "Reference" "#PWR0318"
+		(property "Reference" "#PWR0420"
 			(at 171.45 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5536,7 +5569,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0318")
+					(reference "#PWR0420")
 					(unit 1)
 				)
 			)
@@ -5705,7 +5738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c054260-78d4-41b7-9414-42fe00406e6a")
-		(property "Reference" "#PWR0314"
+		(property "Reference" "#PWR0416"
 			(at 90.17 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5766,7 +5799,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0314")
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
@@ -5783,7 +5816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ccb6bf5-5401-4ce0-afa7-eb0dd7c058b4")
-		(property "Reference" "#PWR0424"
+		(property "Reference" "#PWR0526"
 			(at 179.07 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -5844,7 +5877,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0424")
+					(reference "#PWR0526")
 					(unit 1)
 				)
 			)
@@ -5861,7 +5894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d0c71ce-dea4-4f3d-ab9c-9accca16be04")
-		(property "Reference" "#PWR0412"
+		(property "Reference" "#PWR0514"
 			(at 52.07 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -5921,7 +5954,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0412")
+					(reference "#PWR0514")
 					(unit 1)
 				)
 			)
@@ -6242,7 +6275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f0ddf1b-7817-4870-bd04-d8fcc8731134")
-		(property "Reference" "#PWR0326"
+		(property "Reference" "#PWR0428"
 			(at 378.46 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6303,7 +6336,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0326")
+					(reference "#PWR0428")
 					(unit 1)
 				)
 			)
@@ -6929,7 +6962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11976509-feb6-4e2b-8fc4-8e1a210e46c9")
-		(property "Reference" "#PWR0300"
+		(property "Reference" "#PWR0402"
 			(at 100.33 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6989,7 +7022,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0300")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -7006,7 +7039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "131c6af5-4490-4ba2-8934-798cb8ac6022")
-		(property "Reference" "#PWR0349"
+		(property "Reference" "#PWR0451"
 			(at 198.12 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7067,7 +7100,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0349")
+					(reference "#PWR0451")
 					(unit 1)
 				)
 			)
@@ -7084,7 +7117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14926ed6-3b44-4749-896f-f1cab1808f05")
-		(property "Reference" "#PWR0323"
+		(property "Reference" "#PWR0425"
 			(at 273.05 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7145,7 +7178,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0323")
+					(reference "#PWR0425")
 					(unit 1)
 				)
 			)
@@ -7314,7 +7347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15d5d6e8-0c5a-4d04-9c96-1131719f0c36")
-		(property "Reference" "#PWR0305"
+		(property "Reference" "#PWR0407"
 			(at 201.93 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7374,7 +7407,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0305")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -7391,7 +7424,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16d85ef8-98d3-4cdf-937d-b198974be779")
-		(property "Reference" "#PWR0324"
+		(property "Reference" "#PWR0426"
 			(at 293.37 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7452,7 +7485,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0324")
+					(reference "#PWR0426")
 					(unit 1)
 				)
 			)
@@ -7469,7 +7502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "179f0920-a76c-401e-b449-a19973782914")
-		(property "Reference" "#PWR0344"
+		(property "Reference" "#PWR0446"
 			(at 96.52 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7530,7 +7563,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0344")
+					(reference "#PWR0446")
 					(unit 1)
 				)
 			)
@@ -7547,7 +7580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18283560-8550-4b36-af30-36815e9da36f")
-		(property "Reference" "#PWR0289"
+		(property "Reference" "#PWR0391"
 			(at 182.88 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7608,7 +7641,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0289")
+					(reference "#PWR0391")
 					(unit 1)
 				)
 			)
@@ -7777,7 +7810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b57aeb0-04a4-4ec0-b399-446d014d8f71")
-		(property "Reference" "#PWR0407"
+		(property "Reference" "#PWR0509"
 			(at 261.62 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -7838,7 +7871,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0407")
+					(reference "#PWR0509")
 					(unit 1)
 				)
 			)
@@ -8007,7 +8040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c1aed48-173f-4af5-a917-1ae8212d1c44")
-		(property "Reference" "#PWR0319"
+		(property "Reference" "#PWR0421"
 			(at 191.77 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8068,7 +8101,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0319")
+					(reference "#PWR0421")
 					(unit 1)
 				)
 			)
@@ -8237,7 +8270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1de34cd4-83d1-43f2-9bbc-7571b65a2c21")
-		(property "Reference" "#PWR0421"
+		(property "Reference" "#PWR0523"
 			(at 39.37 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -8298,7 +8331,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0421")
+					(reference "#PWR0523")
 					(unit 1)
 				)
 			)
@@ -8315,7 +8348,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fbdf849-1d58-4a19-b050-8f62440cf5cb")
-		(property "Reference" "#PWR0296"
+		(property "Reference" "#PWR0398"
 			(at 339.09 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8376,7 +8409,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0296")
+					(reference "#PWR0398")
 					(unit 1)
 				)
 			)
@@ -8393,7 +8426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20838522-8e1a-40d5-b66e-06d9806639fa")
-		(property "Reference" "#PWR0341"
+		(property "Reference" "#PWR0443"
 			(at 368.3 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8453,7 +8486,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0341")
+					(reference "#PWR0443")
 					(unit 1)
 				)
 			)
@@ -8470,7 +8503,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20bb7406-07fe-407d-9263-d5c898ec90a6")
-		(property "Reference" "#PWR0329"
+		(property "Reference" "#PWR0431"
 			(at 86.36 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8530,7 +8563,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0329")
+					(reference "#PWR0431")
 					(unit 1)
 				)
 			)
@@ -8547,7 +8580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20e0a3ec-2f1f-4cf9-ad20-7c41c3046553")
-		(property "Reference" "#PWR0396"
+		(property "Reference" "#PWR0498"
 			(at 300.99 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8607,7 +8640,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0396")
+					(reference "#PWR0498")
 					(unit 1)
 				)
 			)
@@ -8624,7 +8657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "237b8d33-427a-4e8a-85be-53909e429972")
-		(property "Reference" "#PWR0392"
+		(property "Reference" "#PWR0494"
 			(at 210.82 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8684,7 +8717,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0392")
+					(reference "#PWR0494")
 					(unit 1)
 				)
 			)
@@ -8701,7 +8734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23dcea36-8cfe-4ace-bb11-b37aaf1269d4")
-		(property "Reference" "#PWR0280"
+		(property "Reference" "#PWR0382"
 			(at 283.21 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -8761,7 +8794,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0280")
+					(reference "#PWR0382")
 					(unit 1)
 				)
 			)
@@ -8778,7 +8811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25abf287-dc62-47e9-9ca2-b38bec56179b")
-		(property "Reference" "#PWR0351"
+		(property "Reference" "#PWR0453"
 			(at 238.76 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8839,7 +8872,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0351")
+					(reference "#PWR0453")
 					(unit 1)
 				)
 			)
@@ -8856,7 +8889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "269ef89f-cc7b-4a34-a04f-d89d29c8f8cb")
-		(property "Reference" "#PWR0408"
+		(property "Reference" "#PWR0510"
 			(at 281.94 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8917,7 +8950,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0408")
+					(reference "#PWR0510")
 					(unit 1)
 				)
 			)
@@ -8934,7 +8967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2788f88b-5785-4160-87aa-6ededa5e3fd6")
-		(property "Reference" "#PWR0413"
+		(property "Reference" "#PWR0515"
 			(at 74.93 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8994,7 +9027,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0413")
+					(reference "#PWR0515")
 					(unit 1)
 				)
 			)
@@ -9011,7 +9044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27c1cfec-9e49-441e-bade-f1406f9a1cfd")
-		(property "Reference" "#PWR0422"
+		(property "Reference" "#PWR0524"
 			(at 62.23 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -9072,7 +9105,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0422")
+					(reference "#PWR0524")
 					(unit 1)
 				)
 			)
@@ -9089,7 +9122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "285d4f1c-2730-4a88-8269-ee1007bd601d")
-		(property "Reference" "#PWR0393"
+		(property "Reference" "#PWR0495"
 			(at 231.14 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9149,7 +9182,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0393")
+					(reference "#PWR0495")
 					(unit 1)
 				)
 			)
@@ -9318,7 +9351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "287e8f59-b976-450d-8799-c7c39a5183b2")
-		(property "Reference" "#PWR0441"
+		(property "Reference" "#PWR0543"
 			(at 208.28 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -9378,7 +9411,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0441")
+					(reference "#PWR0543")
 					(unit 1)
 				)
 			)
@@ -9547,7 +9580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a7be1a2-8bf4-4561-8f30-cefcbed53cfb")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0410"
 			(at 262.89 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9607,7 +9640,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0308")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -9928,7 +9961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d5a5595-9093-4cda-8517-4e8757474ef5")
-		(property "Reference" "#PWR0312"
+		(property "Reference" "#PWR0414"
 			(at 35.56 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9989,7 +10022,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0312")
+					(reference "#PWR0414")
 					(unit 1)
 				)
 			)
@@ -10006,7 +10039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31e76101-b0ca-4c63-8d52-4a2528057249")
-		(property "Reference" "#PWR0335"
+		(property "Reference" "#PWR0437"
 			(at 208.28 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10066,7 +10099,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0335")
+					(reference "#PWR0437")
 					(unit 1)
 				)
 			)
@@ -10083,7 +10116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31f70b34-158e-4d48-8e0e-5fdedb7a919c")
-		(property "Reference" "#PWR0426"
+		(property "Reference" "#PWR0528"
 			(at 275.59 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10144,7 +10177,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0426")
+					(reference "#PWR0528")
 					(unit 1)
 				)
 			)
@@ -10172,7 +10205,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF 10V"
+		(property "Value" "100nF 16V"
 			(at 260.3563 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10612,7 +10645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "372a93fd-6361-4b38-a50b-b4db02e07f77")
-		(property "Reference" "#PWR0446"
+		(property "Reference" "#PWR0548"
 			(at 175.26 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -10672,7 +10705,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0446")
+					(reference "#PWR0548")
 					(unit 1)
 				)
 			)
@@ -10689,7 +10722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3830735a-deab-4930-bf79-168328054b26")
-		(property "Reference" "#PWR0273"
+		(property "Reference" "#PWR0375"
 			(at 124.46 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -10749,7 +10782,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0273")
+					(reference "#PWR0375")
 					(unit 1)
 				)
 			)
@@ -10766,7 +10799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3852ea61-ebb0-478c-acc8-c9055f428c33")
-		(property "Reference" "#PWR0347"
+		(property "Reference" "#PWR0449"
 			(at 157.48 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10827,7 +10860,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0347")
+					(reference "#PWR0449")
 					(unit 1)
 				)
 			)
@@ -10844,7 +10877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39def00c-686a-48d9-929b-61c5c6372aa0")
-		(property "Reference" "#PWR0379"
+		(property "Reference" "#PWR0481"
 			(at 228.6 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10905,7 +10938,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0379")
+					(reference "#PWR0481")
 					(unit 1)
 				)
 			)
@@ -10922,7 +10955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a0e2645-331b-4e49-bdcd-a151fe1c39bd")
-		(property "Reference" "#PWR0442"
+		(property "Reference" "#PWR0544"
 			(at 255.27 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -10982,7 +11015,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0442")
+					(reference "#PWR0544")
 					(unit 1)
 				)
 			)
@@ -10999,7 +11032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a9610f6-c972-400d-8023-5997733fa717")
-		(property "Reference" "#PWR0354"
+		(property "Reference" "#PWR0456"
 			(at 299.72 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11060,7 +11093,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0354")
+					(reference "#PWR0456")
 					(unit 1)
 				)
 			)
@@ -11078,7 +11111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3af55cc9-500d-45b7-8732-cad552b9bfe8")
-		(property "Reference" "#PWR0447"
+		(property "Reference" "#PWR0549"
 			(at 220.98 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -11138,7 +11171,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0447")
+					(reference "#PWR0549")
 					(unit 1)
 				)
 			)
@@ -11155,7 +11188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c22aaeb-c875-4b23-b02b-7a02eef2405e")
-		(property "Reference" "#PWR0362"
+		(property "Reference" "#PWR0464"
 			(at 157.48 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11215,7 +11248,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0362")
+					(reference "#PWR0464")
 					(unit 1)
 				)
 			)
@@ -11384,7 +11417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d987f27-e3f0-47f1-b5e8-0661cfff32f0")
-		(property "Reference" "#PWR0384"
+		(property "Reference" "#PWR0486"
 			(at 378.46 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11445,7 +11478,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0384")
+					(reference "#PWR0486")
 					(unit 1)
 				)
 			)
@@ -11463,7 +11496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ebf3e54-e46a-4746-b0e9-6301ff3955a5")
-		(property "Reference" "#PWR0460"
+		(property "Reference" "#PWR0551"
 			(at 245.11 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -11523,7 +11556,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0460")
+					(reference "#PWR0551")
 					(unit 1)
 				)
 			)
@@ -11540,7 +11573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40157b50-2d4d-4e40-a96a-513dc54cd7f5")
-		(property "Reference" "#PWR0327"
+		(property "Reference" "#PWR0429"
 			(at 29.21 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11600,7 +11633,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0327")
+					(reference "#PWR0429")
 					(unit 1)
 				)
 			)
@@ -11617,7 +11650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40ea9efd-4448-4559-a905-03c98eca10b8")
-		(property "Reference" "#PWR0332"
+		(property "Reference" "#PWR0434"
 			(at 147.32 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11677,7 +11710,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0332")
+					(reference "#PWR0434")
 					(unit 1)
 				)
 			)
@@ -11846,7 +11879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "415b993b-2461-4305-9584-9cb8b9622cb5")
-		(property "Reference" "#PWR0398"
+		(property "Reference" "#PWR0500"
 			(at 58.42 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11907,7 +11940,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0398")
+					(reference "#PWR0500")
 					(unit 1)
 				)
 			)
@@ -12076,7 +12109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41fcbc05-b8fb-492c-899c-64e8620e6002")
-		(property "Reference" "#PWR0317"
+		(property "Reference" "#PWR0419"
 			(at 151.13 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -12137,7 +12170,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0317")
+					(reference "#PWR0419")
 					(unit 1)
 				)
 			)
@@ -12154,7 +12187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "424363bc-63b4-4402-99d6-0a54c0231252")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0405"
 			(at 161.29 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12214,7 +12247,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0303")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -12379,12 +12412,12 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43ffcb27-cc74-40f7-aca4-0e61e1ee64bc")
-		(property "Reference" "S59"
+		(property "Reference" "S4"
 			(at 354.33 233.5529 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12497,7 +12530,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "S59")
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -12514,7 +12547,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4445f72a-a814-4def-8a8c-4eb6f3561264")
-		(property "Reference" "#PWR0298"
+		(property "Reference" "#PWR0400"
 			(at 59.69 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12574,7 +12607,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0298")
+					(reference "#PWR0400")
 					(unit 1)
 				)
 			)
@@ -12591,7 +12624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4669db4e-8ff1-4303-9b50-a251c900fede")
-		(property "Reference" "#PWR0389"
+		(property "Reference" "#PWR0491"
 			(at 149.86 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12651,7 +12684,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0389")
+					(reference "#PWR0491")
 					(unit 1)
 				)
 			)
@@ -12668,7 +12701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47c7a637-c4f8-4695-ad94-b2eca287ec1f")
-		(property "Reference" "#PWR0437"
+		(property "Reference" "#PWR0539"
 			(at 24.13 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12728,7 +12761,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0437")
+					(reference "#PWR0539")
 					(unit 1)
 				)
 			)
@@ -12745,7 +12778,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47fa5e44-bb37-4766-b1e5-0a2f08cf3ec1")
-		(property "Reference" "#PWR0409"
+		(property "Reference" "#PWR0511"
 			(at 311.15 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12806,7 +12839,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0409")
+					(reference "#PWR0511")
 					(unit 1)
 				)
 			)
@@ -12823,7 +12856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4815f0b7-8d37-4374-8400-fdcfed7922ad")
-		(property "Reference" "#PWR0322"
+		(property "Reference" "#PWR0424"
 			(at 252.73 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -12884,7 +12917,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0322")
+					(reference "#PWR0424")
 					(unit 1)
 				)
 			)
@@ -12901,7 +12934,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4863411f-5579-4181-bdcd-74b4081cc0cb")
-		(property "Reference" "#PWR0359"
+		(property "Reference" "#PWR0461"
 			(at 96.52 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -12961,7 +12994,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0359")
+					(reference "#PWR0461")
 					(unit 1)
 				)
 			)
@@ -13282,7 +13315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a35f09e-1e39-4a54-ab81-c42703c75621")
-		(property "Reference" "#PWR0417"
+		(property "Reference" "#PWR0519"
 			(at 285.75 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -13342,7 +13375,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0417")
+					(reference "#PWR0519")
 					(unit 1)
 				)
 			)
@@ -13511,7 +13544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ccc8396-1322-4abc-8975-1f0a5d3f7748")
-		(property "Reference" "#PWR0336"
+		(property "Reference" "#PWR0438"
 			(at 228.6 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13571,7 +13604,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0336")
+					(reference "#PWR0438")
 					(unit 1)
 				)
 			)
@@ -13588,7 +13621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cdcb3d3-6f3d-47ed-a609-d2d1c097365d")
-		(property "Reference" "#PWR0377"
+		(property "Reference" "#PWR0479"
 			(at 187.96 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -13649,7 +13682,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0377")
+					(reference "#PWR0479")
 					(unit 1)
 				)
 			)
@@ -14022,7 +14055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5174d44c-279b-4983-8df6-9b5ec4601dfa")
-		(property "Reference" "#PWR0313"
+		(property "Reference" "#PWR0415"
 			(at 69.85 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14083,7 +14116,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0313")
+					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
@@ -14100,7 +14133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "521e4019-4616-42a7-8e85-038ced440c09")
-		(property "Reference" "#PWR0339"
+		(property "Reference" "#PWR0441"
 			(at 289.56 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14160,7 +14193,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0339")
+					(reference "#PWR0441")
 					(unit 1)
 				)
 			)
@@ -14177,7 +14210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52904d41-0dab-4aa9-ae06-49f8425a4267")
-		(property "Reference" "#PWR0388"
+		(property "Reference" "#PWR0490"
 			(at 129.54 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14237,7 +14270,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0388")
+					(reference "#PWR0490")
 					(unit 1)
 				)
 			)
@@ -14406,7 +14439,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58075c74-f0cd-4480-ba4e-9e5d4a8a8820")
-		(property "Reference" "#PWR0373"
+		(property "Reference" "#PWR0475"
 			(at 106.68 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -14467,7 +14500,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0373")
+					(reference "#PWR0475")
 					(unit 1)
 				)
 			)
@@ -14484,7 +14517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59340910-6b10-4237-85e2-1de8b48e3dc8")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR0409"
 			(at 242.57 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -14544,7 +14577,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0307")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -14561,7 +14594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a1887c3-0993-4dd7-866f-2d42c3a095dc")
-		(property "Reference" "#PWR0343"
+		(property "Reference" "#PWR0445"
 			(at 76.2 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14622,7 +14655,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0343")
+					(reference "#PWR0445")
 					(unit 1)
 				)
 			)
@@ -14791,7 +14824,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5aec1c69-eef6-4d77-a11e-d24616dd5e1e")
-		(property "Reference" "#PWR0279"
+		(property "Reference" "#PWR0381"
 			(at 262.89 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -14851,7 +14884,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0279")
+					(reference "#PWR0381")
 					(unit 1)
 				)
 			)
@@ -15020,7 +15053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bc7290d-e671-4730-b2a7-d61cab948f62")
-		(property "Reference" "#PWR0374"
+		(property "Reference" "#PWR0476"
 			(at 127 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -15081,7 +15114,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0374")
+					(reference "#PWR0476")
 					(unit 1)
 				)
 			)
@@ -15099,7 +15132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bfdea98-af53-4c13-8e6d-a5d591043c07")
-		(property "Reference" "#PWR0435"
+		(property "Reference" "#PWR0537"
 			(at 220.98 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -15159,7 +15192,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0435")
+					(reference "#PWR0537")
 					(unit 1)
 				)
 			)
@@ -15480,7 +15513,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e865da7-14a1-45e3-9c3b-c5f6fdf5cb98")
-		(property "Reference" "#PWR0310"
+		(property "Reference" "#PWR0412"
 			(at 318.77 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -15540,7 +15573,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0310")
+					(reference "#PWR0412")
 					(unit 1)
 				)
 			)
@@ -15557,7 +15590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "629bcd93-7e5f-4019-850e-c755a12b3591")
-		(property "Reference" "#PWR0290"
+		(property "Reference" "#PWR0392"
 			(at 203.2 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -15618,7 +15651,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0290")
+					(reference "#PWR0392")
 					(unit 1)
 				)
 			)
@@ -15787,7 +15820,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "660e2f8a-0dfa-4580-8ede-d1739f6c67ad")
-		(property "Reference" "#PWR0281"
+		(property "Reference" "#PWR0383"
 			(at 303.53 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -15847,7 +15880,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0281")
+					(reference "#PWR0383")
 					(unit 1)
 				)
 			)
@@ -15864,7 +15897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66172c3c-634d-43f0-8de2-baa31054cad0")
-		(property "Reference" "#PWR0272"
+		(property "Reference" "#PWR0374"
 			(at 104.14 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -15924,7 +15957,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0272")
+					(reference "#PWR0374")
 					(unit 1)
 				)
 			)
@@ -15941,7 +15974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "661b079c-db02-44ea-a60d-2aa6eafbf1db")
-		(property "Reference" "#PWR0277"
+		(property "Reference" "#PWR0379"
 			(at 213.36 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -16001,7 +16034,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0277")
+					(reference "#PWR0379")
 					(unit 1)
 				)
 			)
@@ -16018,7 +16051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67244a3a-f924-42b2-b7b6-b24508907e79")
-		(property "Reference" "#PWR0282"
+		(property "Reference" "#PWR0384"
 			(at 328.93 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -16078,7 +16111,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0282")
+					(reference "#PWR0384")
 					(unit 1)
 				)
 			)
@@ -16095,7 +16128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67499c19-62ca-4ade-84b1-aba4f941312d")
-		(property "Reference" "#PWR0427"
+		(property "Reference" "#PWR0529"
 			(at 295.91 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -16156,7 +16189,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0427")
+					(reference "#PWR0529")
 					(unit 1)
 				)
 			)
@@ -16173,7 +16206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67dc15b7-c24b-4414-81bc-021a0416e1f9")
-		(property "Reference" "#PWR0402"
+		(property "Reference" "#PWR0504"
 			(at 160.02 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -16234,7 +16267,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0402")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -16403,7 +16436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68592c6e-7c35-4c12-9e40-2d40506b9581")
-		(property "Reference" "#PWR0333"
+		(property "Reference" "#PWR0435"
 			(at 167.64 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16463,7 +16496,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0333")
+					(reference "#PWR0435")
 					(unit 1)
 				)
 			)
@@ -16491,7 +16524,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF 10V"
+		(property "Value" "100nF 16V"
 			(at 167.6463 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16626,7 +16659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d0d2a6a-be37-4f95-9060-59da7a5aaefd")
-		(property "Reference" "#PWR0375"
+		(property "Reference" "#PWR0477"
 			(at 147.32 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -16687,7 +16720,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0375")
+					(reference "#PWR0477")
 					(unit 1)
 				)
 			)
@@ -16704,7 +16737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6df9e5b8-713b-4f77-b73a-d32a07be1764")
-		(property "Reference" "#PWR0274"
+		(property "Reference" "#PWR0376"
 			(at 152.4 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -16764,7 +16797,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0274")
+					(reference "#PWR0376")
 					(unit 1)
 				)
 			)
@@ -17237,7 +17270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72021d44-eb2a-46bd-a66d-4ceb9eaa8357")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0404"
 			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -17297,7 +17330,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0302")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -17466,7 +17499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "750d3157-f923-49e1-91c7-adb9697e7ba1")
-		(property "Reference" "#PWR0415"
+		(property "Reference" "#PWR0517"
 			(at 245.11 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -17526,7 +17559,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0415")
+					(reference "#PWR0517")
 					(unit 1)
 				)
 			)
@@ -17543,7 +17576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75fdd298-78e3-4b3c-b400-7c610a9ed36b")
-		(property "Reference" "#PWR0275"
+		(property "Reference" "#PWR0377"
 			(at 172.72 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -17603,7 +17636,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0275")
+					(reference "#PWR0377")
 					(unit 1)
 				)
 			)
@@ -17620,7 +17653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76570938-cca3-4b42-9b47-07d953902cde")
-		(property "Reference" "#PWR0364"
+		(property "Reference" "#PWR0466"
 			(at 198.12 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17680,7 +17713,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0364")
+					(reference "#PWR0466")
 					(unit 1)
 				)
 			)
@@ -17693,12 +17726,12 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76598661-8fc8-44e6-aedd-0610559998b1")
-		(property "Reference" "S28"
+		(property "Reference" "S2"
 			(at 313.69 233.5529 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17811,7 +17844,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "S28")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -18032,7 +18065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7812f51b-f39c-4728-8621-5feb92aac43b")
-		(property "Reference" "#PWR0376"
+		(property "Reference" "#PWR0478"
 			(at 167.64 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -18093,7 +18126,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0376")
+					(reference "#PWR0478")
 					(unit 1)
 				)
 			)
@@ -18110,7 +18143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7813c700-c209-4293-a6ed-57b5d1cd9f3e")
-		(property "Reference" "#PWR0399"
+		(property "Reference" "#PWR0501"
 			(at 99.06 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -18171,7 +18204,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0399")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -18188,7 +18221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7878688b-66f5-45df-a414-43bfd76b770c")
-		(property "Reference" "#PWR0416"
+		(property "Reference" "#PWR0518"
 			(at 265.43 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -18248,7 +18281,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0416")
+					(reference "#PWR0518")
 					(unit 1)
 				)
 			)
@@ -18417,7 +18450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7da0b6bd-5264-4df4-a10c-7d67a0a075e9")
-		(property "Reference" "#PWR0430"
+		(property "Reference" "#PWR0532"
 			(at 365.76 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -18478,7 +18511,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0430")
+					(reference "#PWR0532")
 					(unit 1)
 				)
 			)
@@ -18495,7 +18528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80392eec-d1e6-4951-add3-20556be5a264")
-		(property "Reference" "#PWR0285"
+		(property "Reference" "#PWR0387"
 			(at 93.98 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -18556,7 +18589,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0285")
+					(reference "#PWR0387")
 					(unit 1)
 				)
 			)
@@ -18725,7 +18758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80eb3c35-4215-4eea-b4bc-336469b3cebc")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR0413"
 			(at 368.3 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -18785,7 +18818,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0311")
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)
@@ -18954,7 +18987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "826e47f9-a67e-417f-bb42-546e3b0f6e2b")
-		(property "Reference" "#PWR0403"
+		(property "Reference" "#PWR0505"
 			(at 180.34 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -19015,7 +19048,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0403")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -19488,7 +19521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88a81fb7-fd60-40af-9edf-ddd00c738dcf")
-		(property "Reference" "#PWR0369"
+		(property "Reference" "#PWR0471"
 			(at 313.69 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -19548,7 +19581,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0369")
+					(reference "#PWR0471")
 					(unit 1)
 				)
 			)
@@ -19717,7 +19750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88c560ce-bdc1-4982-aca2-60c6bcd21341")
-		(property "Reference" "#PWR0438"
+		(property "Reference" "#PWR0540"
 			(at 71.12 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -19777,7 +19810,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0438")
+					(reference "#PWR0540")
 					(unit 1)
 				)
 			)
@@ -19957,7 +19990,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF 10V"
+		(property "Value" "100nF 16V"
 			(at 29.2163 208.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20092,7 +20125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a6e5f91-960f-4027-83b2-00af4250e261")
-		(property "Reference" "#PWR0297"
+		(property "Reference" "#PWR0399"
 			(at 25.4 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -20152,7 +20185,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0297")
+					(reference "#PWR0399")
 					(unit 1)
 				)
 			)
@@ -20169,7 +20202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b12d391-58a6-4fab-a473-08c063d2caad")
-		(property "Reference" "#PWR0423"
+		(property "Reference" "#PWR0525"
 			(at 85.09 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -20230,7 +20263,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0423")
+					(reference "#PWR0525")
 					(unit 1)
 				)
 			)
@@ -20247,7 +20280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b895a99-e191-4113-9bc8-28825a81d024")
-		(property "Reference" "#PWR0352"
+		(property "Reference" "#PWR0454"
 			(at 259.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -20308,7 +20341,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0352")
+					(reference "#PWR0454")
 					(unit 1)
 				)
 			)
@@ -20477,7 +20510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c364efa-d1f0-4482-abe8-c807988c7c83")
-		(property "Reference" "#PWR0406"
+		(property "Reference" "#PWR0508"
 			(at 241.3 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -20538,7 +20571,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0406")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -20555,7 +20588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cca3806-595b-426d-a453-035004f56842")
-		(property "Reference" "#PWR0325"
+		(property "Reference" "#PWR0427"
 			(at 328.93 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -20616,7 +20649,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0325")
+					(reference "#PWR0427")
 					(unit 1)
 				)
 			)
@@ -20633,7 +20666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f873ea7-43e4-474f-b903-4517c3b5dec7")
-		(property "Reference" "#PWR0345"
+		(property "Reference" "#PWR0447"
 			(at 116.84 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -20694,7 +20727,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0345")
+					(reference "#PWR0447")
 					(unit 1)
 				)
 			)
@@ -20711,7 +20744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "906758c1-0109-4b46-9b22-71bae7f26c2c")
-		(property "Reference" "#PWR0306"
+		(property "Reference" "#PWR0408"
 			(at 222.25 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -20771,7 +20804,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0306")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -21092,7 +21125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "942db37b-3d7c-464d-81e4-b9b15fc3a75e")
-		(property "Reference" "#PWR0414"
+		(property "Reference" "#PWR0516"
 			(at 168.91 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -21152,7 +21185,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0414")
+					(reference "#PWR0516")
 					(unit 1)
 				)
 			)
@@ -21169,7 +21202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94d197aa-f165-41de-a69c-539db06a6e8d")
-		(property "Reference" "#PWR0410"
+		(property "Reference" "#PWR0512"
 			(at 345.44 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -21230,7 +21263,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0410")
+					(reference "#PWR0512")
 					(unit 1)
 				)
 			)
@@ -21551,7 +21584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99185d0f-5b3e-462f-8086-76d280edfc69")
-		(property "Reference" "#PWR0287"
+		(property "Reference" "#PWR0389"
 			(at 134.62 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -21612,7 +21645,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0287")
+					(reference "#PWR0389")
 					(unit 1)
 				)
 			)
@@ -21985,7 +22018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ae72986-aef9-422b-a6a2-8765579d6e5f")
-		(property "Reference" "#PWR0372"
+		(property "Reference" "#PWR0474"
 			(at 86.36 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -22046,7 +22079,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0372")
+					(reference "#PWR0474")
 					(unit 1)
 				)
 			)
@@ -22063,7 +22096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d367ebf-1ecf-43b9-aced-4b10c8594d7a")
-		(property "Reference" "#PWR0387"
+		(property "Reference" "#PWR0489"
 			(at 109.22 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -22123,7 +22156,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0387")
+					(reference "#PWR0489")
 					(unit 1)
 				)
 			)
@@ -22444,7 +22477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f42795a-9b92-404e-80cc-3256687df8a9")
-		(property "Reference" "#PWR0420"
+		(property "Reference" "#PWR0522"
 			(at 355.6 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -22504,7 +22537,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0420")
+					(reference "#PWR0522")
 					(unit 1)
 				)
 			)
@@ -22521,7 +22554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2159118-de88-4431-84ba-a2b29efae512")
-		(property "Reference" "#PWR0283"
+		(property "Reference" "#PWR0385"
 			(at 35.56 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -22582,7 +22615,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0283")
+					(reference "#PWR0385")
 					(unit 1)
 				)
 			)
@@ -22803,7 +22836,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2f0ef80-2d6c-4d91-8900-e531f91a661b")
-		(property "Reference" "#PWR0358"
+		(property "Reference" "#PWR0460"
 			(at 76.2 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -22863,7 +22896,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0358")
+					(reference "#PWR0460")
 					(unit 1)
 				)
 			)
@@ -22891,7 +22924,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF 10V"
+		(property "Value" "100nF 16V"
 			(at 76.2063 208.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23026,7 +23059,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3aacabe-1934-4079-9955-751783e53431")
-		(property "Reference" "#PWR0348"
+		(property "Reference" "#PWR0450"
 			(at 177.8 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -23087,7 +23120,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0348")
+					(reference "#PWR0450")
 					(unit 1)
 				)
 			)
@@ -23104,7 +23137,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3bc7e39-9791-4597-864b-b3e3855ef2f0")
-		(property "Reference" "#PWR0286"
+		(property "Reference" "#PWR0388"
 			(at 114.3 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -23165,7 +23198,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0286")
+					(reference "#PWR0388")
 					(unit 1)
 				)
 			)
@@ -23182,7 +23215,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3c61748-7f46-4bff-aa14-be162ec933e3")
-		(property "Reference" "#PWR0411"
+		(property "Reference" "#PWR0513"
 			(at 29.21 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -23242,7 +23275,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0411")
+					(reference "#PWR0513")
 					(unit 1)
 				)
 			)
@@ -23411,7 +23444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5285840-430c-488c-bacd-c0a3ed15e7b4")
-		(property "Reference" "#PWR0419"
+		(property "Reference" "#PWR0521"
 			(at 335.28 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -23471,7 +23504,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0419")
+					(reference "#PWR0521")
 					(unit 1)
 				)
 			)
@@ -24300,7 +24333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aefb3012-cdfe-4bc6-856d-92d72f17d5ac")
-		(property "Reference" "#PWR0418"
+		(property "Reference" "#PWR0520"
 			(at 314.96 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -24360,7 +24393,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0418")
+					(reference "#PWR0520")
 					(unit 1)
 				)
 			)
@@ -24377,7 +24410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aff5478f-0373-4dde-aa70-f97ca9d22f38")
-		(property "Reference" "#PWR0270"
+		(property "Reference" "#PWR0372"
 			(at 63.5 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -24437,7 +24470,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0270")
+					(reference "#PWR0372")
 					(unit 1)
 				)
 			)
@@ -24454,7 +24487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b19cd5af-7aef-4fbb-b02b-936ebea6efe3")
-		(property "Reference" "#PWR0357"
+		(property "Reference" "#PWR0459"
 			(at 45.72 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -24514,7 +24547,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0357")
+					(reference "#PWR0459")
 					(unit 1)
 				)
 			)
@@ -24542,7 +24575,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF 10V"
+		(property "Value" "100nF 16V"
 			(at 213.3663 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24677,7 +24710,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2011a61-84a7-4bf9-b637-53665cad7936")
-		(property "Reference" "#PWR0404"
+		(property "Reference" "#PWR0506"
 			(at 200.66 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -24738,7 +24771,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0404")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -25060,7 +25093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b55c7dc8-056f-4b01-9699-a852dbf60712")
-		(property "Reference" "#PWR0431"
+		(property "Reference" "#PWR0533"
 			(at 36.83 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -25120,7 +25153,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0431")
+					(reference "#PWR0533")
 					(unit 1)
 				)
 			)
@@ -25137,7 +25170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6fcaea2-6f1b-4470-a35e-8c19455fad60")
-		(property "Reference" "#PWR0360"
+		(property "Reference" "#PWR0462"
 			(at 116.84 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -25197,7 +25230,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0360")
+					(reference "#PWR0462")
 					(unit 1)
 				)
 			)
@@ -25214,7 +25247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b86b7739-10e2-44d1-8aaa-63f070dd9010")
-		(property "Reference" "#PWR0397"
+		(property "Reference" "#PWR0499"
 			(at 335.28 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -25274,7 +25307,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0397")
+					(reference "#PWR0499")
 					(unit 1)
 				)
 			)
@@ -25291,7 +25324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b99e1f24-ba68-40b0-8747-c9f01259955b")
-		(property "Reference" "#PWR0391"
+		(property "Reference" "#PWR0493"
 			(at 190.5 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -25351,7 +25384,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0391")
+					(reference "#PWR0493")
 					(unit 1)
 				)
 			)
@@ -25368,7 +25401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9e4bfc1-db29-4aea-a942-3033c1ce2107")
-		(property "Reference" "#PWR0278"
+		(property "Reference" "#PWR0380"
 			(at 242.57 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -25428,7 +25461,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0278")
+					(reference "#PWR0380")
 					(unit 1)
 				)
 			)
@@ -25445,7 +25478,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba68e83f-ed9b-4ca3-a107-eaa7a3dac4f2")
-		(property "Reference" "#PWR0321"
+		(property "Reference" "#PWR0423"
 			(at 232.41 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -25506,7 +25539,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0321")
+					(reference "#PWR0423")
 					(unit 1)
 				)
 			)
@@ -25523,7 +25556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd9c1d1f-e7a6-401b-8c95-7de2ffda42eb")
-		(property "Reference" "#PWR0330"
+		(property "Reference" "#PWR0432"
 			(at 106.68 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -25583,7 +25616,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0330")
+					(reference "#PWR0432")
 					(unit 1)
 				)
 			)
@@ -25752,7 +25785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c07932fd-e626-4a5e-8eda-c6e344c11bad")
-		(property "Reference" "#PWR0288"
+		(property "Reference" "#PWR0390"
 			(at 162.56 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -25813,7 +25846,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0288")
+					(reference "#PWR0390")
 					(unit 1)
 				)
 			)
@@ -25831,7 +25864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1e44ddf-a06f-4a7a-9d8f-3db1a951b60f")
-		(property "Reference" "#PWR0443"
+		(property "Reference" "#PWR0545"
 			(at 36.83 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -25891,7 +25924,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0443")
+					(reference "#PWR0545")
 					(unit 1)
 				)
 			)
@@ -25908,7 +25941,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2ce6a96-5319-4657-91ea-7f7c5bfb1c37")
-		(property "Reference" "#PWR0334"
+		(property "Reference" "#PWR0436"
 			(at 187.96 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -25968,7 +26001,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0334")
+					(reference "#PWR0436")
 					(unit 1)
 				)
 			)
@@ -26133,12 +26166,12 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3c518ae-39d7-458a-9937-1c1b4c49a18a")
-		(property "Reference" "S57"
+		(property "Reference" "S3"
 			(at 334.01 233.5529 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26251,7 +26284,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "S57")
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -26268,7 +26301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4994480-33b9-4ea1-861d-4a8c3c9234d2")
-		(property "Reference" "#PWR0428"
+		(property "Reference" "#PWR0530"
 			(at 325.12 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -26329,7 +26362,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0428")
+					(reference "#PWR0530")
 					(unit 1)
 				)
 			)
@@ -26346,7 +26379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6a18348-b846-4db5-aba0-06d24fb2eadd")
-		(property "Reference" "#PWR0294"
+		(property "Reference" "#PWR0396"
 			(at 293.37 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -26407,7 +26440,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0294")
+					(reference "#PWR0396")
 					(unit 1)
 				)
 			)
@@ -26576,7 +26609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7a074f5-2a8e-4301-a0b0-bcc59d3dd229")
-		(property "Reference" "#PWR0284"
+		(property "Reference" "#PWR0386"
 			(at 73.66 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -26637,7 +26670,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0284")
+					(reference "#PWR0386")
 					(unit 1)
 				)
 			)
@@ -26806,7 +26839,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c81cb36c-8fd1-4567-a65a-7031adac13aa")
-		(property "Reference" "#PWR0355"
+		(property "Reference" "#PWR0457"
 			(at 327.66 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -26867,7 +26900,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0355")
+					(reference "#PWR0457")
 					(unit 1)
 				)
 			)
@@ -27036,7 +27069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8de2601-5b8d-4a09-a385-56eeb0ad1c37")
-		(property "Reference" "#PWR0299"
+		(property "Reference" "#PWR0401"
 			(at 80.01 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -27096,7 +27129,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0299")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -27113,7 +27146,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "caf8b8d5-39d1-44a5-ab91-9894a3564b32")
-		(property "Reference" "#PWR0316"
+		(property "Reference" "#PWR0418"
 			(at 130.81 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -27174,7 +27207,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0316")
+					(reference "#PWR0418")
 					(unit 1)
 				)
 			)
@@ -27495,7 +27528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d195ace1-bd10-4366-aae6-56c7533b8172")
-		(property "Reference" "#PWR0378"
+		(property "Reference" "#PWR0480"
 			(at 208.28 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -27556,7 +27589,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0378")
+					(reference "#PWR0480")
 					(unit 1)
 				)
 			)
@@ -27574,7 +27607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1f20850-c1eb-42a8-836a-de4e2b66ff6a")
-		(property "Reference" "#PWR0432"
+		(property "Reference" "#PWR0534"
 			(at 83.82 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -27634,7 +27667,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0432")
+					(reference "#PWR0534")
 					(unit 1)
 				)
 			)
@@ -27652,7 +27685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2540358-23cc-4475-9c96-38390ab38af3")
-		(property "Reference" "#PWR0434"
+		(property "Reference" "#PWR0536"
 			(at 175.26 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -27712,7 +27745,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0434")
+					(reference "#PWR0536")
 					(unit 1)
 				)
 			)
@@ -27729,7 +27762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d38bebaf-8178-4523-8f3d-f5665009305c")
-		(property "Reference" "#PWR0400"
+		(property "Reference" "#PWR0502"
 			(at 119.38 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -27790,7 +27823,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0400")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -27807,7 +27840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3eb0e4e-8868-40dd-b8d0-ac0d432c3692")
-		(property "Reference" "#PWR0429"
+		(property "Reference" "#PWR0531"
 			(at 345.44 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -27868,7 +27901,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0429")
+					(reference "#PWR0531")
 					(unit 1)
 				)
 			)
@@ -27885,7 +27918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d46d2824-a9f8-4188-af8a-0f754d5f4253")
-		(property "Reference" "#PWR0338"
+		(property "Reference" "#PWR0440"
 			(at 269.24 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -27945,7 +27978,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0338")
+					(reference "#PWR0440")
 					(unit 1)
 				)
 			)
@@ -27962,7 +27995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4b1fa99-419e-420f-8da2-73b7e279ab07")
-		(property "Reference" "#PWR0276"
+		(property "Reference" "#PWR0378"
 			(at 193.04 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -28022,7 +28055,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0276")
+					(reference "#PWR0378")
 					(unit 1)
 				)
 			)
@@ -28039,7 +28072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d58fac08-a5af-4d3c-81db-444ac5fef8dc")
-		(property "Reference" "#PWR0382"
+		(property "Reference" "#PWR0484"
 			(at 289.56 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -28100,7 +28133,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0382")
+					(reference "#PWR0484")
 					(unit 1)
 				)
 			)
@@ -28117,7 +28150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d75e8db6-8f22-44af-af32-5bbcee9360d1")
-		(property "Reference" "#PWR0342"
+		(property "Reference" "#PWR0444"
 			(at 39.37 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -28178,7 +28211,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0342")
+					(reference "#PWR0444")
 					(unit 1)
 				)
 			)
@@ -28195,7 +28228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d84a6cf5-8f9d-4329-98b5-a137fe0208f0")
-		(property "Reference" "#PWR0315"
+		(property "Reference" "#PWR0417"
 			(at 110.49 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -28256,7 +28289,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0315")
+					(reference "#PWR0417")
 					(unit 1)
 				)
 			)
@@ -28274,7 +28307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d87c9574-3657-475e-9083-27f110176268")
-		(property "Reference" "#PWR0433"
+		(property "Reference" "#PWR0535"
 			(at 129.54 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -28334,7 +28367,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0433")
+					(reference "#PWR0535")
 					(unit 1)
 				)
 			)
@@ -28351,7 +28384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8c084d4-bcb1-41bd-b351-90801ce42fa4")
-		(property "Reference" "#PWR0331"
+		(property "Reference" "#PWR0433"
 			(at 127 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -28411,7 +28444,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0331")
+					(reference "#PWR0433")
 					(unit 1)
 				)
 			)
@@ -28428,7 +28461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da79f9f7-35d9-4244-b4a9-6c34f4ecb10f")
-		(property "Reference" "#PWR0405"
+		(property "Reference" "#PWR0507"
 			(at 220.98 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -28489,7 +28522,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0405")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -28506,7 +28539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da8cf681-c73e-4d02-82bd-f53e60fa607c")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR0406"
 			(at 181.61 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -28566,7 +28599,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0304")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -28594,7 +28627,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF 10V"
+		(property "Value" "100nF 16V"
 			(at 121.9263 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28729,7 +28762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db8002f3-2165-4dfb-8d7e-153a41f2971d")
-		(property "Reference" "#PWR0292"
+		(property "Reference" "#PWR0394"
 			(at 252.73 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -28790,7 +28823,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0292")
+					(reference "#PWR0394")
 					(unit 1)
 				)
 			)
@@ -28807,7 +28840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db849917-7333-4f16-b3b9-ef23dd0ec9b2")
-		(property "Reference" "#PWR0370"
+		(property "Reference" "#PWR0472"
 			(at 368.3 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -28867,7 +28900,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0370")
+					(reference "#PWR0472")
 					(unit 1)
 				)
 			)
@@ -28885,7 +28918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbb2c9fe-6888-4b67-b796-a1e53c5a08b5")
-		(property "Reference" "#PWR0444"
+		(property "Reference" "#PWR0546"
 			(at 83.82 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -28945,7 +28978,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0444")
+					(reference "#PWR0546")
 					(unit 1)
 				)
 			)
@@ -28962,7 +28995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc34ed6c-7fb4-45ff-b66f-7bac3cd9d371")
-		(property "Reference" "#PWR0439"
+		(property "Reference" "#PWR0541"
 			(at 116.84 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -29022,7 +29055,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0439")
+					(reference "#PWR0541")
 					(unit 1)
 				)
 			)
@@ -29040,7 +29073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd86dca0-b3e6-43ce-8216-556c73991383")
-		(property "Reference" "#PWR0445"
+		(property "Reference" "#PWR0547"
 			(at 129.54 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -29100,7 +29133,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0445")
+					(reference "#PWR0547")
 					(unit 1)
 				)
 			)
@@ -29117,7 +29150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dde47ad4-ca69-49fe-87b2-73f3512fc862")
-		(property "Reference" "#PWR0368"
+		(property "Reference" "#PWR0470"
 			(at 279.4 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -29177,7 +29210,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0368")
+					(reference "#PWR0470")
 					(unit 1)
 				)
 			)
@@ -29194,7 +29227,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "def0c1fd-88ca-4844-974d-e4cbc7345d46")
-		(property "Reference" "#PWR0350"
+		(property "Reference" "#PWR0452"
 			(at 218.44 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -29255,7 +29288,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0350")
+					(reference "#PWR0452")
 					(unit 1)
 				)
 			)
@@ -29576,7 +29609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e17443b1-e421-40cf-b7e6-1236f00659eb")
-		(property "Reference" "#PWR0366"
+		(property "Reference" "#PWR0468"
 			(at 238.76 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -29636,7 +29669,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0366")
+					(reference "#PWR0468")
 					(unit 1)
 				)
 			)
@@ -29653,7 +29686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e353d1a4-a45c-4a56-8ce0-b5452efdff89")
-		(property "Reference" "#PWR0365"
+		(property "Reference" "#PWR0467"
 			(at 218.44 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -29713,7 +29746,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0365")
+					(reference "#PWR0467")
 					(unit 1)
 				)
 			)
@@ -29730,7 +29763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e35702ed-b181-45b8-b11c-3d6bb66deb37")
-		(property "Reference" "#PWR0337"
+		(property "Reference" "#PWR0439"
 			(at 248.92 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -29790,7 +29823,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0337")
+					(reference "#PWR0439")
 					(unit 1)
 				)
 			)
@@ -29960,7 +29993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e514bb05-e2c6-47a9-8ddb-9ff7262127ca")
-		(property "Reference" "#PWR0436"
+		(property "Reference" "#PWR0538"
 			(at 267.97 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -30020,7 +30053,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0436")
+					(reference "#PWR0538")
 					(unit 1)
 				)
 			)
@@ -30341,7 +30374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e654f94b-7272-45bc-b81a-1f732dc339cf")
-		(property "Reference" "#PWR0295"
+		(property "Reference" "#PWR0397"
 			(at 313.69 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -30402,7 +30435,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0295")
+					(reference "#PWR0397")
 					(unit 1)
 				)
 			)
@@ -30419,7 +30452,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8334483-b0c7-4df1-9ab8-1b985d98bce7")
-		(property "Reference" "#PWR0371"
+		(property "Reference" "#PWR0473"
 			(at 55.88 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -30480,7 +30513,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0371")
+					(reference "#PWR0473")
 					(unit 1)
 				)
 			)
@@ -30801,7 +30834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec029186-5585-4adf-912d-16258ef68467")
-		(property "Reference" "#PWR0381"
+		(property "Reference" "#PWR0483"
 			(at 269.24 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -30862,7 +30895,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0381")
+					(reference "#PWR0483")
 					(unit 1)
 				)
 			)
@@ -30880,7 +30913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec792d13-8289-4f31-a6fe-b5166da058fd")
-		(property "Reference" "#PWR0448"
+		(property "Reference" "#PWR0550"
 			(at 267.97 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -30940,7 +30973,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0448")
+					(reference "#PWR0550")
 					(unit 1)
 				)
 			)
@@ -30957,7 +30990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec8ba484-1203-4b38-8af7-3a05c9474c60")
-		(property "Reference" "#PWR0353"
+		(property "Reference" "#PWR0455"
 			(at 279.4 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -31018,7 +31051,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0353")
+					(reference "#PWR0455")
 					(unit 1)
 				)
 			)
@@ -31035,7 +31068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed59b9a9-ffe3-4fc7-952b-fe07c497ddc2")
-		(property "Reference" "#PWR0328"
+		(property "Reference" "#PWR0430"
 			(at 66.04 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -31095,7 +31128,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0328")
+					(reference "#PWR0430")
 					(unit 1)
 				)
 			)
@@ -31112,7 +31145,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eda8ff3d-2107-476c-bcfa-08702b1cf633")
-		(property "Reference" "#PWR0401"
+		(property "Reference" "#PWR0503"
 			(at 139.7 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -31173,7 +31206,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0401")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -31190,7 +31223,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efc4c49e-ddc3-4f6a-b8e7-3e6fdb254ca5")
-		(property "Reference" "#PWR0394"
+		(property "Reference" "#PWR0496"
 			(at 251.46 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -31250,7 +31283,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0394")
+					(reference "#PWR0496")
 					(unit 1)
 				)
 			)
@@ -31571,7 +31604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f09d3712-4a14-4721-b485-589005fe80d6")
-		(property "Reference" "#PWR0291"
+		(property "Reference" "#PWR0393"
 			(at 223.52 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -31632,7 +31665,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0291")
+					(reference "#PWR0393")
 					(unit 1)
 				)
 			)
@@ -31649,7 +31682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f171a30c-60e1-4ae7-9ed5-f091768d6870")
-		(property "Reference" "#PWR0367"
+		(property "Reference" "#PWR0469"
 			(at 259.08 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -31709,7 +31742,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0367")
+					(reference "#PWR0469")
 					(unit 1)
 				)
 			)
@@ -31722,12 +31755,12 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1799cea-4b6d-4686-bf89-724c605f4faa")
-		(property "Reference" "S75"
+		(property "Reference" "S5"
 			(at 374.65 233.5529 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31840,7 +31873,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "S75")
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -31857,7 +31890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1a2b83a-2f28-46b8-b0d6-6339e53f9b5b")
-		(property "Reference" "#PWR0340"
+		(property "Reference" "#PWR0442"
 			(at 317.5 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -31917,7 +31950,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0340")
+					(reference "#PWR0442")
 					(unit 1)
 				)
 			)
@@ -31934,7 +31967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1d91934-e04b-415a-967b-9cef0904de75")
-		(property "Reference" "#PWR0425"
+		(property "Reference" "#PWR0527"
 			(at 255.27 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -31995,7 +32028,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0425")
+					(reference "#PWR0527")
 					(unit 1)
 				)
 			)
@@ -32012,7 +32045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2dc68a4-12df-482c-9040-7e1862e22007")
-		(property "Reference" "#PWR0383"
+		(property "Reference" "#PWR0485"
 			(at 323.85 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -32073,7 +32106,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0383")
+					(reference "#PWR0485")
 					(unit 1)
 				)
 			)
@@ -32090,7 +32123,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3084a2b-4909-4ceb-abb4-a839daa515f8")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0403"
 			(at 120.65 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -32150,7 +32183,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0301")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -32319,7 +32352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f556e35e-9db6-49ce-81ab-fb1d747e56f1")
-		(property "Reference" "#PWR0363"
+		(property "Reference" "#PWR0465"
 			(at 177.8 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -32379,7 +32412,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0363")
+					(reference "#PWR0465")
 					(unit 1)
 				)
 			)
@@ -32752,7 +32785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5fa1df0-81cb-4825-aa2d-05b90790e169")
-		(property "Reference" "#PWR0320"
+		(property "Reference" "#PWR0422"
 			(at 212.09 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -32813,7 +32846,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0320")
+					(reference "#PWR0422")
 					(unit 1)
 				)
 			)
@@ -32982,7 +33015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f651f242-363e-4d6c-9e96-8f976a2cea82")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0411"
 			(at 283.21 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -33042,7 +33075,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0309")
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -33059,7 +33092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7c22f8f-de1e-4491-84bc-1d63770cdde7")
-		(property "Reference" "#PWR0271"
+		(property "Reference" "#PWR0373"
 			(at 83.82 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -33119,7 +33152,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0271")
+					(reference "#PWR0373")
 					(unit 1)
 				)
 			)
@@ -33440,7 +33473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8ca50b2-c72e-4db9-bc1e-a872332502b7")
-		(property "Reference" "#PWR0269"
+		(property "Reference" "#PWR0371"
 			(at 25.4 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -33500,7 +33533,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0269")
+					(reference "#PWR0371")
 					(unit 1)
 				)
 			)
@@ -33517,7 +33550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f91f8363-4c5e-42a9-b103-74baa12a56dc")
-		(property "Reference" "#PWR0361"
+		(property "Reference" "#PWR0463"
 			(at 137.16 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -33577,7 +33610,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0361")
+					(reference "#PWR0463")
 					(unit 1)
 				)
 			)
@@ -33594,7 +33627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa2a3173-c07a-48fa-ae13-013a2a94c5a8")
-		(property "Reference" "#PWR0346"
+		(property "Reference" "#PWR0448"
 			(at 137.16 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -33655,7 +33688,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0346")
+					(reference "#PWR0448")
 					(unit 1)
 				)
 			)
@@ -33672,7 +33705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fae67150-c808-498c-908f-f69fcd67a2b9")
-		(property "Reference" "#PWR0356"
+		(property "Reference" "#PWR0458"
 			(at 378.46 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -33733,7 +33766,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0356")
+					(reference "#PWR0458")
 					(unit 1)
 				)
 			)
@@ -33902,7 +33935,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd23505f-ffc8-43e0-8607-d2949331c248")
-		(property "Reference" "#PWR0395"
+		(property "Reference" "#PWR0497"
 			(at 271.78 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -33962,7 +33995,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0395")
+					(reference "#PWR0497")
 					(unit 1)
 				)
 			)
@@ -33979,7 +34012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd547ef2-6fdb-4ecf-9518-d283757d4fc9")
-		(property "Reference" "#PWR0385"
+		(property "Reference" "#PWR0487"
 			(at 48.26 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -34039,7 +34072,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0385")
+					(reference "#PWR0487")
 					(unit 1)
 				)
 			)
@@ -34056,7 +34089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "feef5225-17b2-4d2a-acd9-d22c1cc5cbcc")
-		(property "Reference" "#PWR0293"
+		(property "Reference" "#PWR0395"
 			(at 273.05 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -34117,7 +34150,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/f08a38a0-20fb-471e-897c-36513896ee3d"
-					(reference "#PWR0293")
+					(reference "#PWR0395")
 					(unit 1)
 				)
 			)

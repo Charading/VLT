@@ -1,0 +1,42 @@
+{
+ "interference_mm3": {
+  "top_case+plate": 0.0,
+  "top_case+cartridge": 0.4448522666886394,
+  "top_case+display_module": 0.0,
+  "top_case+bottom_case": 0.0,
+  "top_case+knob": 0.0,
+  "bottom_case+plate": 0.0,
+  "bottom_case+pcb": 0.0,
+  "bottom_case+weight": 0.0,
+  "bottom_case+usb_board": 0.0,
+  "bottom_case+pogo_board": 0.0,
+  "top_case+gaskets": 0.0,
+  "bottom_case+gaskets": 0.0,
+  "top_case+bar_inserts": 0.0,
+  "top_case+usb_board": 0.0,
+  "top_case+keycaps_preview": 0.0,
+  "plate+keycaps_preview": 0.0,
+  "display_module+keycaps_preview": 0.0,
+  "knob+keycaps_preview": 0.0,
+  "bottom_case+diag_inserts": 0.0,
+  "bottom_case+front_strip_insert": 0.0,
+  "weight+diag_inserts": 0.0
+ },
+ "bbox": {
+  "top_case": "x -8.0..322.4 y -131.9..8.0 z -10.5..7.5",
+  "bottom_case": "x -8.0..322.3 y -131.8..8.1 z -28.8..-3.0",
+  "plate": "x -0.0..314.3 y -128.3..4.5 z -1.5..0.0",
+  "cartridge": "x 268.2..290.2 y -20.3..6.0 z 1.5..6.2",
+  "display_module": "x 268.9..289.4 y -20.2..3.6 z -4.7..7.5",
+  "weight": "x 7.2..307.2 y -56.0..-16.0 z -27.2..-20.1",
+  "bar_inserts": "x 288.3..292.7 y -79.5..4.0 z 6.3..7.5",
+  "front_strip_insert": "x 47.3..267.1 y -127.3..-124.2 z -14.8..-12.7",
+  "diag_inserts": "x 43.5..150.8 y -95.8..-79.5 z -19.5..-15.9",
+  "pcb": "x 2.2..312.2 y -123.4..-0.4 z -6.6..-3.0",
+  "usb_board": "x 144.7..169.7 y -9.0..6.9 z -11.2..-7.1",
+  "pogo_board": "x 137.2..177.2 y -29.0..-11.0 z -14.6..-7.0",
+  "gaskets": "x 30.0..260.0 y -128.3..4.5 z -3.0..1.5",
+  "knob": "x 295.8..313.8 y -18.5..-0.5 z 8.2..19.2",
+  "keycaps_preview": "x -1.0..315.3 y -124.8..1.0 z 4.9..17.0"
+ }
+}

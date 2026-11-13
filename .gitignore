@@ -25,3 +25,6 @@ VLT+Dev/
 .history_trim/
 deprecated/
 nextpcb/
+
+# KiCad automatic backups (zips of every save)
+*-backups/

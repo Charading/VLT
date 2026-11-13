@@ -1,0 +1,24 @@
+Updated Antenna from AE1 to AE201.
+Updated 1uF 16V from C50 to C201.
+Updated 4.7uF 10V from C51 to C202.
+Updated 100nF 16V from C52 to C203.
+Updated 100nF 16V from C53 to C204.
+Updated 100pF from C54 to C205.
+Updated DNP from C55 to C206.
+Updated 100nF 16V from C56 to C207.
+Updated 20pF from C57 to C208.
+Updated 0.8pF from C58 to C209.
+Updated 20pF from C59 to C210.
+Updated 20pF from C60 to C211.
+Updated 20pF from C61 to C212.
+Updated JP_NRF_VDD from JP3 to JP201.
+Updated 3.9nH from L3 to L201.
+Updated JP_NRF_TX from R46 to R201.
+Updated JP_NRF_RX from R47 to R202.
+Updated JP_NRF_IRQ from R50 to R203.
+Updated 12k from R53 to R204.
+Updated JP_NRF_RST from R57 to R205.
+Updated nRF52810-QCAA from U14 to U201.
+Updated 32.768K from Y4 to Y201.
+Updated 32MHz from Y5 to Y202.
+Annotation complete.

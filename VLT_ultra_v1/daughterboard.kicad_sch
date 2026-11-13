@@ -2102,6 +2102,39 @@
 					)
 				)
 			)
+			(property "LCSC" "C54333647"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "FPC12-T1T1-2010-A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SHETIME"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "usb universal serial bus type-C USB2.0 mars usbc 16P"
 				(at 0 0 0)
 				(show_name no)
@@ -3331,6 +3364,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 13.97 13.97)
@@ -3355,6 +3503,18 @@
 			(type none)
 		)
 		(uuid "fbb0b56e-44a3-4bb8-ba9a-d09e763ec555")
+	)
+	(junction
+		(at 36.83 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dd518fa-b3cc-43dd-bd01-374c1c5e8d00")
+	)
+	(junction
+		(at 161.29 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13168421-7cc0-430c-8d8d-a524e6c29c63")
 	)
 	(junction
 		(at 48.26 35.56)
@@ -3409,6 +3569,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f875b962-96f7-40a7-9e7e-89698ee65e6a")
+	)
+	(no_connect
+		(at 25.4 66.04)
+		(uuid "5d032d82-8e93-42d9-a436-0c1db8d4449b")
 	)
 	(no_connect
 		(at 48.26 49.53)
@@ -3590,7 +3754,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 67.31) (xy 49.53 67.31)
+			(xy 33.02 67.31) (xy 36.83 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3930,6 +4094,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 67.31) (xy 49.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfbdceb-0bea-4b55-86ba-a90590390e40")
+	)
+	(wire
+		(pts
 			(xy 48.26 35.56) (xy 72.39 35.56)
 		)
 		(stroke
@@ -4250,7 +4424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0056fbd6-b395-4368-b151-b0005583a1a0")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0573"
 			(at 30.48 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4311,7 +4485,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "#PWR034")
+					(reference "#PWR0573")
 					(unit 1)
 				)
 			)
@@ -4328,7 +4502,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "0aa7cc5e-ec97-47ee-89fe-f794290249f2")
-		(property "Reference" "D6"
+		(property "Reference" "D85"
 			(at 116.84 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4480,7 +4654,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "D6")
+					(reference "D85")
 					(unit 1)
 				)
 			)
@@ -4492,13 +4666,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "10b83b59-35dc-46a1-85ed-fb1cd63909fa")
-		(property "Reference" "U18"
+		(property "Reference" "U15"
 			(at 79.1211 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4632,7 +4806,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "U18")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -4645,13 +4819,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1283f8ee-0716-4788-a431-0e165ec24bbb")
-		(property "Reference" "J16"
+		(property "Reference" "J15"
 			(at 30.48 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4774,7 +4948,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "J16")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -4792,7 +4966,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "177857c9-8109-42fe-b5ef-ce2731e68da8")
-		(property "Reference" "#PWR0572"
+		(property "Reference" "#PWR0569"
 			(at 106.68 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4854,7 +5028,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "#PWR0572")
+					(reference "#PWR0569")
 					(unit 1)
 				)
 			)
@@ -4867,13 +5041,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3a099e89-69d4-4fae-b896-342c278e8c69")
-		(property "Reference" "J104"
+		(property "Reference" "J16"
 			(at 30.48 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4996,7 +5170,86 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "J104")
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 161.29 78.74 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40980e2e-06f7-4aba-9af9-805270ea5c9d")
+		(property "Reference" "#FLG013"
+			(at 161.29 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 161.29 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 161.29 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa11ef8b-5b3a-4869-8ea8-917b4e21e9e0")
+		)
+		(instances
+			(project "VLT_ultra_v1"
+				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)
@@ -5014,7 +5267,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "4be4f23d-714e-4be6-9707-9aa366682e36")
-		(property "Reference" "#PWR0573"
+		(property "Reference" "#PWR0572"
 			(at 106.68 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5076,7 +5329,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "#PWR0573")
+					(reference "#PWR0572")
 					(unit 1)
 				)
 			)
@@ -5094,7 +5347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cb64871-870f-466f-ab56-eee79f2fcef3")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0567"
 			(at 30.48 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5155,7 +5408,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "#PWR06")
+					(reference "#PWR0567")
 					(unit 1)
 				)
 			)
@@ -5173,7 +5426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d6bd221-c2fb-49c1-844d-a9efb1f0bb17")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0565"
 			(at 114.3 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5233,7 +5486,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "#PWR041")
+					(reference "#PWR0565")
 					(unit 1)
 				)
 			)
@@ -5251,7 +5504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c7f2f16-09b6-4c94-919f-a97d894cef95")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0566"
 			(at 154.94 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5311,7 +5564,86 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "#PWR045")
+					(reference "#PWR0566")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 36.83 67.31 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6931ba94-c7f3-4223-b002-04d0c26bd16f")
+		(property "Reference" "#FLG012"
+			(at 36.83 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 36.83 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 36.83 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2a54eb6-dd99-4e2e-a051-50d05357bc4c")
+		)
+		(instances
+			(project "VLT_ultra_v1"
+				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
+					(reference "#FLG012")
 					(unit 1)
 				)
 			)
@@ -5329,7 +5661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dcda6c6-69dd-45f9-bcdf-7c1f0a9236c2")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0563"
 			(at 53.34 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5390,7 +5722,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "#PWR03")
+					(reference "#PWR0563")
 					(unit 1)
 				)
 			)
@@ -5408,7 +5740,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "728e87f7-77ad-40b8-89fe-1297456690ba")
-		(property "Reference" "#PWR0575"
+		(property "Reference" "#PWR0571"
 			(at 114.3 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5469,7 +5801,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "#PWR0575")
+					(reference "#PWR0571")
 					(unit 1)
 				)
 			)
@@ -5487,7 +5819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84ead73c-59ed-4e75-af06-5cb55eeb3f11")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0562"
 			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5548,7 +5880,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "#PWR035")
+					(reference "#PWR0562")
 					(unit 1)
 				)
 			)
@@ -5561,13 +5893,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "87f8e803-a648-4abd-8b6e-70830568e523")
-		(property "Reference" "U14"
+		(property "Reference" "U18"
 			(at 180.34 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5702,7 +6034,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "U14")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -5715,12 +6047,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "8a3f52e7-ab19-4a5c-8c90-5635652117ca")
-		(property "Reference" "U15"
+		(property "Reference" "U16"
 			(at 118.11 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5860,7 +6192,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "U15")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -5877,7 +6209,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "b23dbab2-bbbc-475c-9ad8-c772c0686211")
-		(property "Reference" "D4"
+		(property "Reference" "D83"
 			(at 55.88 40.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6029,7 +6361,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "D4")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -6047,7 +6379,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "bac53ace-b70d-48a1-8f62-38be40ce96fd")
-		(property "Reference" "R36"
+		(property "Reference" "R65"
 			(at 47.752 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6177,7 +6509,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "R36")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -6189,12 +6521,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "c5cd5d56-45c4-488f-8fbd-1ee531058003")
-		(property "Reference" "U19"
+		(property "Reference" "U17"
 			(at 151.13 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6334,7 +6666,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "U19")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -6352,7 +6684,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "c878091e-35fe-448b-bf1d-38a8655ed074")
-		(property "Reference" "D5"
+		(property "Reference" "D84"
 			(at 53.34 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6504,7 +6836,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "D5")
+					(reference "D84")
 					(unit 1)
 				)
 			)
@@ -6516,7 +6848,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
@@ -6707,7 +7039,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "d4632216-add9-45a7-9abc-32f5ced62006")
-		(property "Reference" "R37"
+		(property "Reference" "R66"
 			(at 55.118 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6837,7 +7169,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "R37")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -6855,7 +7187,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d47f4157-59a3-4a57-a07f-1d4717f18ac8")
-		(property "Reference" "#PWR0576"
+		(property "Reference" "#PWR0570"
 			(at 55.88 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6916,7 +7248,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "#PWR0576")
+					(reference "#PWR0570")
 					(unit 1)
 				)
 			)
@@ -6934,7 +7266,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d836a415-4fef-4043-8184-ebcfd52462ca")
-		(property "Reference" "#PWR0571"
+		(property "Reference" "#PWR0568"
 			(at 64.77 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6995,7 +7327,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "#PWR0571")
+					(reference "#PWR0568")
 					(unit 1)
 				)
 			)
@@ -7007,13 +7339,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ed4e86ea-1d12-43e9-8955-d145e0e11472")
-		(property "Reference" "J100"
+		(property "Reference" "J14"
 			(at 33.02 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7175,7 +7507,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "J100")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -7193,7 +7525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc156640-6d60-4609-b60a-40d5a7b91d63")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0564"
 			(at 33.02 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7254,7 +7586,7 @@
 		(instances
 			(project "VLT_ultra_v1"
 				(path "/c718de86-356e-4c1f-b593-cb7e2fd66d67/7e9ab6a3-9bda-4f61-9a73-a99614ef34a9"
-					(reference "#PWR02")
+					(reference "#PWR0564")
 					(unit 1)
 				)
 			)
